@@ -1,4 +1,3 @@
-# CSS Basics
 <h2><a href="#top">CSS Basics</a></h2>
 
 > *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
