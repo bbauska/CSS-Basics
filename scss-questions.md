@@ -1,4 +1,4 @@
-<h1><a href="#intvw-questions">SCSS Interview Questions</a></h1>
+<h1><a href="intvw-questions">SCSS Interview Questions</a></h1>
 <br/>
 
 ## Q. Explain what is Sass?
