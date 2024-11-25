@@ -1,4 +1,4 @@
-# CSS Coding Practice
+<h2><a href="#css-practice">CSS Coding Practice</a></h2>
 
 <br/>
 
@@ -50,7 +50,7 @@
 </details>
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#css-practice">↥ Back To Top</a></b>
 </div>
 
 ## Q. How to center a div within another div?
@@ -135,7 +135,7 @@
 </details>
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#css-practice">↥ Back To Top</a></b>
 </div>
 
 ## Q. How to create a zebra striped table with CSS?
@@ -151,7 +151,7 @@ tr:nth-child(even) {
 **Live Demo**: [Zebra Striped](https://codepen.io/learning-zone/pen/zYwoxbM)
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#css-practice">↥ Back To Top</a></b>
 </div>
 
 ## Q. What elements will match each of the following CSS selectors?
@@ -163,7 +163,7 @@ tr:nth-child(even) {
 * div ~ ```p``` Selects all ```<p>``` elements that are anywhere preceded by a <div> element
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#css-practice">↥ Back To Top</a></b>
 </div>
 
 ## Q. How to align image vertically in a division that spans vertically on the whole webpage?
