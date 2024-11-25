@@ -1,4 +1,5 @@
 # CSS Basics
+<h2><a href="#top">CSS Basics</a></h2>
 
 > *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
 
@@ -33,7 +34,7 @@ p {
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
 
 ## Q. What is the use of css ruleset?
@@ -57,7 +58,7 @@ div {
 * A **property** is a formatting command that defines a specific style effect for an element. Each property has its own predefined set of values. After the property name, a colon is specified, which separates the property name from the valid value.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
 
 ## Q. What are the possible ways to apply CSS styles to a web page?
@@ -129,7 +130,7 @@ In external CSS rules are stored in a separate file. To refer to that file from 
 The link element in the example has three attributes. The first, `rel`, tells the browser the type of the target of the link. The second, `type`, tells the browser what type of stylesheet it is. And the third, `href`, tells the browser under which URL to find the stylesheet.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
 
 ## Q. What does the cascading portion of CSS mean?
@@ -156,9 +157,8 @@ Most modern browsers allow users to set their own style sheets within their brow
 
 As soon as you apply a basic style sheet or an inline style to a page, you have added what is referred to as an "author style sheet". Everything you do, from choosing fonts, colours and laying out pages in CSS is done using author style sheets.
 
-
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
 
 ## Q. Explain new features in CSS3?
@@ -288,7 +288,7 @@ url(thirdImage.png);
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#top">↥ Back To Top</a></b>
 </div>
 
 ## Q. What are the css selectors?
