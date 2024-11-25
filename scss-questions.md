@@ -1,5 +1,4 @@
-# SCSS Interview Questions
-
+<h1><a href="#intvw-questions">SCSS Interview Questions</a></h1>
 <br/>
 
 ## Q. Explain what is Sass?
@@ -15,7 +14,7 @@ Sass works by writing your styles in .scss (or .sass) files, which will then get
 **Live Demo**: [Sass Example](https://codepen.io/learning-zone/pen/RwVprvO)
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. What are the SCSS basic features?
@@ -273,14 +272,10 @@ aside[role="complementary"] {
 *Note: Only Dart Sass currently supports `@use`. Users of other implementations must use the `@import` rule instead.*
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. List out the data types that Sass supports?
-
-<div align="right">
-    <b><a href="#">↥ back to top</a></b>
-</div>
 
 ## Q. Explain the @include, @mixin, @function functions and how they are used. What is %placeholder?
 
@@ -342,7 +337,7 @@ body, p {
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. List out the differences between LESS and Sass?
@@ -355,7 +350,7 @@ body, p {
 |– LESS does not work with “unknown” units neither it returns syntax error notification for incompatible units or maths related syntax error|	– Sass allows you to work with “unknown” units also returns a syntax error notification for incompatible units|
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. Why Sass is considered better than LESS?
@@ -368,7 +363,7 @@ body, p {
 * In Sass, you can write your own handy functions
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. What are Sass, Less, and Stylus? Why do people use them? How does something like Compass relate to Sass?
@@ -376,7 +371,7 @@ body, p {
 They are CSS preprocessors. They are an abstraction layer on top of CSS. They are a special syntax/language that compile down into CSS. They make managing CSS easier, with things like variables and mixins to handle vendor prefixes (among other things). They make doing best practices easier, like concatenating and compressing CSS.
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 ## Q. What is file splitting and why should you use it?
@@ -384,7 +379,7 @@ They are CSS preprocessors. They are an abstraction layer on top of CSS. They ar
 File splitting helps organize your CSS into multiple files, decreasing page load time and making things easier to manage. How you decide to split them up is up to you, but it can be useful to separate files by component. For example, we can have all button styles in a file called `_buttons.scss` or all your header-specific styles in a file called `_header.scss`, main file, say _app.scss, and we can import those files by writing @import 'buttons';
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
 
 #### Q. What is the @content directive used for?
@@ -411,5 +406,5 @@ File splitting helps organize your CSS into multiple files, decreasing page load
 #### Q. Which symbol is used to refer parent selector in sass?
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+  <b><a href="#intvw-questions">↥ Back To Top</a></b>
 </div>
