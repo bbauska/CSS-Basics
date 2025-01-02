@@ -3533,16 +3533,22 @@ p {
 
 ## Q. What is the difference between padding and margin?
 
-**1) Margin** is applied to the outside of you element hence effecting how far your element is away from other elements.  
-**2) Padding** is applied to the inside of your element hence effecting how far your element\'s content is away from the border.
+**1) Margin** is applied to the outside of you element hence effecting how far your element 
+is away from other elements.  
+**2) Padding** is applied to the inside of your element hence effecting how far your 
+element\'s content is away from the border.
 
-Also, using margin will not affect your element\'s dimensions whereas padding will make your elements dimensions (set height + padding) so for example if you have a 100x100px div with a 5 px padding, your div will actually be 105x105px
+Also, using margin will not affect your element\'s dimensions whereas padding will make 
+your elements dimensions (set height + padding) so for example if you have a 100x100px 
+div with a 5 px padding, your div will actually be 105x105px
 
 <p align="center">
   <img src="assets/images/padding-margin.png" alt="Padding vs Margin" width="600px" />
 </p>
 
-*Note:* **Top/Bottom margins are collapsible:** if you have a 20px margin at the bottom of an element and a 30px margin at the top of the next element, the margin between the two elements will be 30px rather than 50px. This does not apply to left/right margin or padding.
+*Note:* **Top/Bottom margins are collapsible:** if you have a 20px margin at the bottom of 
+an element and a 30px margin at the top of the next element, the margin between the two 
+elements will be 30px rather than 50px. This does not apply to left/right margin or padding.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3550,12 +3556,16 @@ Also, using margin will not affect your element\'s dimensions whereas padding wi
 
 ## Q. What are gradients in CSS?
 
-CSS gradients are represented by the `<gradient>` data type, a special type of `<image>` made of a progressive transition between two or more colors. There are three types of gradients: 
+CSS gradients are represented by the `<gradient>` data type, a special type of `<image>` 
+made of a progressive transition between two or more colors. There are three types of 
+gradients: 
 * linear (created with the `linear-gradient()` function), 
 * radial (created with `radial-gradient()`), and 
 * conic (created with the `conic-gradient()` function).  
 
-We can also create repeating gradients with the `repeating-linear-gradient()`, `repeating-radial-gradient()`, and `repeating-conic-gradient()` functions.
+We can also create repeating gradients with the `repeating-linear-gradient()`, 
+`repeating-radial-gradient()`, and `repeating-conic-gradient()` functions.
+
 ```css
 /* Example - 01: A basic linear gradient */
 .simple-linear {
@@ -3592,7 +3602,8 @@ We can also create repeating gradients with the `repeating-linear-gradient()`, `
   <img src="assets/images/box-opacity.jpg" alt="CSS Opacity" />
 </p>
 
-The `opacity` CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+The `opacity` CSS property sets the opacity of an element. Opacity is the degree to 
+which content behind an element is hidden, and is the opposite of transparency.
 
 ```css
 div { background-color: lightblue; }
@@ -3619,7 +3630,10 @@ div { background-color: lightblue; }
 
 ## Q. How is the concept of inheritance applied in CSS?
 
-Inheritance is a concept in which the child class will inherit the properties of its parent class. It is used in CSS to define the hierarchy from the top level to the bottom level. Inherited properties can be overridden by the children class if the child uses the same name.
+Inheritance is a concept in which the child class will inherit the properties of its 
+parent class. It is used in CSS to define the hierarchy from the top level to the 
+bottom level. Inherited properties can be overridden by the children class if the 
+child uses the same name.
 
 **Example:**
 
@@ -3639,7 +3653,11 @@ span {
 
 ## Q. How do you handle browser differences in your user base?
 
-The `@supports` query in CSS can be very useful to scan if the user\'s current browser has a certain feature. The `@supports` CSS at-rule lets you specify declarations that depend on a browser\'s support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level of your code or nested inside any other conditional group at-rule.
+The `@supports` query in CSS can be very useful to scan if the user\'s current browser 
+has a certain feature. The `@supports` CSS at-rule lets you specify declarations that 
+depend on a browser\'s support for one or more specific CSS features. This is called 
+a feature query. The rule may be placed at the top level of your code or nested inside 
+any other conditional group at-rule.
 
 ```css
 @supports (display: grid) {
@@ -3661,7 +3679,9 @@ The `@supports` query in CSS can be very useful to scan if the user\'s current b
 
 ## Q. What is Cascade?
 
-Cascade is a method of defining the weight (importance) of individual styling rules thus allowing conflicting rules to be sorted out should such rules apply to the same selector.
+Cascade is a method of defining the weight (importance) of individual styling rules 
+thus allowing conflicting rules to be sorted out should such rules apply to the same 
+selector.
 
 ```css
 P {color: white ! important} /* increased weight */
@@ -3674,7 +3694,9 @@ P (color: black} /* normal weight */
 
 ## Q. What are CSS vendor prefixes?
 
-Vendor prefixes are extensions to CSS standards that can be added to these features to prevent incompatibilities from arising when the standard is extended. CSS vendor prefixes for some common platforms are listed below.
+Vendor prefixes are extensions to CSS standards that can be added to these features 
+to prevent incompatibilities from arising when the standard is extended. CSS vendor 
+prefixes for some common platforms are listed below.
 
 * **-webkit-**: Android, Chrome, iOS, and Safari
 * **-moz-**: Mozilla Firefox
@@ -3687,7 +3709,11 @@ Vendor prefixes are extensions to CSS standards that can be added to these featu
 
 ## Q. What is DOM (Document Object Model) and how is it linked to CSS?
 
-The Document Object Model (DOM) is a programming interface for HTML and XML(Extensible markup language) documents. It defines the logical structure of documents and the way a document is accessed and manipulated. This document enables Javascript to access and manipulate the elements and styles of a website. The model is built in a tree structure of objects and defines:
+The Document Object Model (DOM) is a programming interface for HTML and XML(Extensible 
+markup language) documents. It defines the logical structure of documents and the way 
+a document is accessed and manipulated. This document enables Javascript to access and 
+manipulate the elements and styles of a website. The model is built in a tree structure 
+of objects and defines:
 
 * The HTML elements as objects
 * The properties of all HTML elements
@@ -3700,7 +3726,10 @@ The Document Object Model (DOM) is a programming interface for HTML and XML(Exte
 
 **DOM Document**
 
-The DOM Document is the owner of all other objects in your webpage. That means if you want to access any object on your webpage you always have to start with the document. It also contains many important properties and methods that enable us to access and modify our website.
+The DOM Document is the owner of all other objects in your webpage. That means if you 
+want to access any object on your webpage you always have to start with the document. 
+It also contains many important properties and methods that enable us to access and 
+modify our website.
 
 **Finding HTML Elements**
 
@@ -3714,7 +3743,9 @@ The DOM Document is the owner of all other objects in your webpage. That means i
 
 **Changing HTML Elements**
 
-The innerHTML property can be used to change the content of an HTML element. In this example we get the element with an id of header and set the inner content to "Hello World!".
+The innerHTML property can be used to change the content of an HTML element. In this 
+example we get the element with an id of header and set the inner content to "Hello 
+World!".
 
 ```js
 // Example: Using text
@@ -3734,7 +3765,9 @@ document.getElementsByTag("img").src = "image.jpg";
 
 **Changing the style**
 
-To change the style of an HTML element we need to change the style property of our elements. The CSS properties need to be written in camelcase instead of the normal css property name.
+To change the style of an HTML element we need to change the style property of our 
+elements. The CSS properties need to be written in camelcase instead of the normal 
+css property name.
 
 ```js
 document.getElementsByTag("h1").style.borderBottom = "solid 3px #000";
@@ -3744,7 +3777,9 @@ document.getElementsByTag("h1").style.borderBottom = "solid 3px #000";
 
 **Adding elements**
 
-create a div element using the `createElement()` method which takes a tagname as a parameter and saves it into a variable. After that we just need to give it some content and then insert it into our DOM document.
+create a div element using the `createElement()` method which takes a tagname as a 
+parameter and saves it into a variable. After that we just need to give it some 
+content and then insert it into our DOM document.
 
 ```js
 var div = document.createElement("div");
@@ -3754,7 +3789,9 @@ div.appendChild(newContent);
 document.body.insertBefore(div, currentDiv);
 ```
 
-Here we create content using the `createTextNode()` method which takes a String as a parameter and then we insert our new div element before a div that already exists in our document.
+Here we create content using the `createTextNode()` method which takes a String 
+as a parameter and then we insert our new div element before a div that already 
+exists in our document.
 
 **Deleting elements**
 
@@ -3775,11 +3812,14 @@ newDiv.innerHTML = "Hello World2";
 div.parentNode.replaceChild(newDiv, div);
 ```
 
-Here we replace an element using the `replaceChild()` method. The first argument is the new element and the second argument is the element which we want to replace.
+Here we replace an element using the `replaceChild()` method. The first argument is 
+the new element and the second argument is the element which we want to replace.
 
 **Writing directly into the HTML output stream**
 
-We can also write HTML expressions and JavaScript directly into the HTML output stream using the `write()` method. The `write()` method can also take multiple arguments that will be appended to the document in order of their occurrence.
+We can also write HTML expressions and JavaScript directly into the HTML output 
+stream using the `write()` method. The `write()` method can also take multiple 
+arguments that will be appended to the document in order of their occurrence.
 
 ```js
 // HTML Content
@@ -3791,7 +3831,8 @@ document.write(Date());
 
 **Event Handlers**
 
-The HTML DOM also allows Javascript to react to HTML events. for example, mouse click, page load, mouse move, input field change etc.
+The HTML DOM also allows Javascript to react to HTML events. for example, mouse 
+click, page load, mouse move, input field change etc.
 
 **Assign Events**
 
@@ -3917,7 +3958,11 @@ table-layout: auto|fixed|initial|inherit;
 
 **Live Demo**: [Table-layout Property](https://learning-zone.github.io/css-interview-questions/assets/files/table-layout.html)
 
-*Note: The main benefit of `table-layout: fixed;` is that the table renders much faster. On large tables, users will not see any part of the table until the browser has rendered the whole table. So, if you use `table-layout: fixed`, users will see the top of the table while the browser loads and renders rest of the table. This gives the impression that the page loads a lot quicker!*
+*Note: The main benefit of `table-layout: fixed;` is that the table renders much 
+faster. On large tables, users will not see any part of the table until the browser 
+has rendered the whole table. So, if you use `table-layout: fixed`, users will see 
+the top of the table while the browser loads and renders rest of the table. This 
+gives the impression that the page loads a lot quicker!*
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3925,7 +3970,11 @@ table-layout: auto|fixed|initial|inherit;
 
 ## Q. Does margin-top or margin-bottom have an effect on inline elements
 
-Top and bottom margins do not affect inline elements because inline elements flow with content on the page. You can set left and right margins/padding on an inline element but not top or bottom because it would disrupt the flow of content. You can set margins on block (or inline-block but it will only look right if you set the vertical align right) because block level elements disrupt the flow of content.
+Top and bottom margins do not affect inline elements because inline elements flow with 
+content on the page. You can set left and right margins/padding on an inline element 
+but not top or bottom because it would disrupt the flow of content. You can set margins 
+on block (or inline-block but it will only look right if you set the vertical align 
+right) because block level elements disrupt the flow of content.
 
 **Example:**
 
@@ -3959,7 +4008,9 @@ Top and bottom margins do not affect inline elements because inline elements flo
 
 ## Q. How does Calc() work?
 
-The `calc()` function can be used to perform addition, subtraction, multiplication, and division calculations with numeric property values. Specifically, it can be used with `<length>`, `<frequency>`, `<angle>`, `<time>`, `<number>`, or `<integer>` data types.
+The `calc()` function can be used to perform addition, subtraction, multiplication, and 
+division calculations with numeric property values. Specifically, it can be used with 
+`<length>`, `<frequency>`, `<angle>`, `<time>`, `<number>`, or `<integer>` data types.
 
 **Example:**
 
@@ -3986,9 +4037,14 @@ The `calc()` function can be used to perform addition, subtraction, multiplicati
 
 ## Q. What do CSS Custom properties variables mean?
 
-Custom properties (sometimes referred to as **CSS variables** or **cascading variables**) are entities defined by CSS authors that contain specific values to be reused throughout a document. They are set using custom property notation (e.g., `--main-color: black;`) and are accessed using the `var()` function (e.g., `color: var(--main-color);`).
+Custom properties (sometimes referred to as **CSS variables** or **cascading variables**) 
+are entities defined by CSS authors that contain specific values to be reused throughout 
+a document. They are set using custom property notation (e.g., `--main-color: black;`) 
+and are accessed using the `var()` function (e.g., `color: var(--main-color);`).
 
-Property names that are prefixed with `--`, like `--example-name`, represent custom properties that contain a value that can be used in other declarations using the `var()` function.
+Property names that are prefixed with `--`, like `--example-name`, represent custom 
+properties that contain a value that can be used in other declarations using the 
+`var()` function.
 
 **Syntax**
 
@@ -4042,7 +4098,9 @@ Property names that are prefixed with `--`, like `--example-name`, represent cus
 
 ## Q. What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?
 
-SASS variables are replaced with their values as the preprocessor produces its CSS output long before the browser interprets the code, while CSS custom properties are evaluated by the browser at runtime.
+SASS variables are replaced with their values as the preprocessor produces its CSS 
+output long before the browser interprets the code, while CSS custom properties are 
+evaluated by the browser at runtime.
 
 **Example:** Preprocessor Variable
 
@@ -4057,7 +4115,9 @@ $brandColor: #F06D06;
 }
 ```
 
-The above code would do nothing in a browser. The browser wouldn\'t understand the declarations and toss them out. Preprocessors need to compile into CSS to be used. This code would compile to:
+The above code would do nothing in a browser. The browser wouldn\'t understand the 
+declarations and toss them out. Preprocessors need to compile into CSS to be used. 
+This code would compile to:
 
 ```css
 .main-header {
@@ -4068,11 +4128,13 @@ The above code would do nothing in a browser. The browser wouldn\'t understand t
 }
 ```
 
-This is now valid CSS. The variable was part of the preprocessor language, not CSS itself. Once the code compiles, the variables are gone.
+This is now valid CSS. The variable was part of the preprocessor language, not CSS 
+itself. Once the code compiles, the variables are gone.
 
 **Example:** CSS Custom Property
 
-The native CSS has started supporting CSS variables, or "CSS Custom Properties". It allows you to work with variables directly in CSS. There is no compiling.
+The native CSS has started supporting CSS variables, or "CSS Custom Properties". It 
+allows you to work with variables directly in CSS. There is no compiling.
 
 ```css
 :root {
@@ -4093,7 +4155,9 @@ The native CSS has started supporting CSS variables, or "CSS Custom Properties".
 
 ## Q. What are Vendor-Prefixes?
 
-CSS vendor prefixes, also sometimes known as or CSS browser prefixes, are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers.
+CSS vendor prefixes, also sometimes known as or CSS browser prefixes, are a way for 
+browser makers to add support for new CSS features before those features are fully 
+supported in all browsers.
 
 **Example:** `transition` property
 
@@ -4111,7 +4175,8 @@ CSS vendor prefixes, also sometimes known as or CSS browser prefixes, are a way 
 
 The major browsers use the following prefixes:
 
-* `-webkit-` (Chrome, Safari, newer versions of Opera, almost all iOS browsers including Firefox for iOS; basically, any WebKit based browser)
+* `-webkit-` (Chrome, Safari, newer versions of Opera, almost all iOS browsers including 
+* Firefox for iOS; basically, any WebKit based browser)
 * `-moz-` (Firefox)
 * `-o-` (old pre-WebKit versions of Opera)
 * `-ms-` (Internet Explorer and Microsoft Edge)
@@ -4122,7 +4187,9 @@ The major browsers use the following prefixes:
 
 ## Q. What is the property that is used for controlling image-scroll?
 
-The **background-attachment** property in CSS is used to specify the kind of attachment of the background image with respect to its container. It can be set to scroll or remain fixed. It can be applied to all HTML elements.
+The **background-attachment** property in CSS is used to specify the kind of attachment 
+of the background image with respect to its container. It can be set to scroll or remain 
+fixed. It can be applied to all HTML elements.
 
 **Syntax**
 
@@ -4231,7 +4298,8 @@ overflow: visible|hidden|scroll|auto|initial|inherit;
 
 ## Q. What is word-wrapping in CSS?
 
-The word-wrap property in CSS is used to break long word and wrap into the next line. It defines whether to break words when the content exceeds the boundaries of its container.
+The word-wrap property in CSS is used to break long word and wrap into the next line. It 
+defines whether to break words when the content exceeds the boundaries of its container.
 
 **Syntax**
 
@@ -4292,13 +4360,16 @@ word-wrap: normal|break-word|initial|inherit;
 
 ## Q. What is Accessibility (a11y) in a web application?
 
-Accessibility refers to how software or hardware combinations are designed to make a system accessible to persons with disabilities, such as:
+Accessibility refers to how software or hardware combinations are designed to make a 
+system accessible to persons with disabilities, such as:
 
 * Visual impairment
 * Hearing loss
 * Limited dexterity
 
-For example, a website developed with accessibility in mind might have text-to-speech capabilities or output for special braille hardware geared toward individuals with visual impairments.
+For example, a website developed with accessibility in mind might have text-to-speech 
+capabilities or output for special braille hardware geared toward individuals with 
+visual impairments.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -4306,10 +4377,16 @@ For example, a website developed with accessibility in mind might have text-to-s
 
 ## Q. What is UI/UX?
 
-**1) UI or User Interface**:  is how a product or website is laid out and how you interact with it: Where the buttons are, how big the fonts are, and how menus are organized are all elements of UI.
+**1) UI or User Interface**:  is how a product or website is laid out and how you interact 
+with it: Where the buttons are, how big the fonts are, and how menus are organized are all 
+elements of UI.
 
-**2) UX or User Experience**: is how you feel about using a product or a website. So, your love for the way the new Apple Watch looks or your excitement that there’s finally a tablet-sized iPhone to watch those Corgi videos you’re obsessed with are reflections of UX.
-So the new look of the Facebook news feed involves a change to UI, and the way you navigate that new page is the UX. 
+**2) UX or User Experience**: is how you feel about using a product or a website. So, 
+your love for the way the new Apple Watch looks or your excitement that there’s finally 
+a tablet-sized iPhone to watch those Corgi videos you’re obsessed with are reflections 
+of UX.
+So the new look of the Facebook news feed involves a change to UI, and the way you 
+navigate that new page is the UX. 
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -4317,8 +4394,10 @@ So the new look of the Facebook news feed involves a change to UI, and the way y
 
 ## Q. How do you serve your pages for feature-constrained browsers? What techniques do you use?
 
-* **Graceful degradation**: The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
-* **Progressive enhancement**: The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
+* **Graceful degradation**: The practice of building an application for modern browsers 
+* while ensuring it remains functional in older browsers.
+* **Progressive enhancement**: The practice of building an application for a base level 
+* of user experience, but adding functional enhancements when a browser supports it.
 * **[caniuse](https://caniuse.com/)**: to check for feature support.
 * **[Autoprefixer](https://autoprefixer.github.io/)**: for automatic vendor prefix insertion.
 * **Feature detection**: using [Modernizr](https://modernizr.com/).
@@ -4332,12 +4411,15 @@ So the new look of the Facebook news feed involves a change to UI, and the way y
 
 These techniques are related to accessibility (a11y).
 
-* `visibility: hidden`: However, the element is still in the flow of the page, and still takes up space.
-* `width: 0; height: 0`: Make the element not take up any space on the screen at all, resulting in not showing it.
+* `visibility: hidden`: However, the element is still in the flow of the page, and 
+*  still takes up space.
+* `width: 0; height: 0`: Make the element not take up any space on the screen at all, 
+*  resulting in not showing it.
 * `position: absolute; left: -99999px`: Position it outside of the screen.
 * `text-indent: -9999px`: This only works on text within the `block` elements.
 * **Metadata**: For example by using Schema.org, RDF, and JSON-LD.
-* **WAI-ARIA**: A W3C technical specification that specifies how to increase the accessibility of web pages.
+* **WAI-ARIA**: A W3C technical specification that specifies how to increase the 
+* accessibility of web pages.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -4345,7 +4427,10 @@ These techniques are related to accessibility (a11y).
 
 ## Q. What is file splitting? When is it used?
 
-A monolithic file is fine for solo developers or very small projects. For large projects—sites with multiple layouts and content types, or multiple brands under the same design umbrella—it\'s smarter to use a modular approach and split your CSS across multiple files.
+A monolithic file is fine for solo developers or very small projects. For large 
+projects—sites with multiple layouts and content types, or multiple brands under 
+the same design umbrella—it\'s smarter to use a modular approach and split your 
+CSS across multiple files.
 
 * **reset.css**: reset and normalization styles; minimal color, border, or font-related declarations
 * **typography.css**: font faces, weights, line heights, sizes, and styles for headings and body text
@@ -4356,7 +4441,10 @@ A monolithic file is fine for solo developers or very small projects. For large 
 * **carousel.css**: styles required for carousel components
 * **accordion.css**: styles for accordion components
 
-CSS frameworks such as Foundation and Bootstrap use this approach. Both become quite granular with separate files for progress bars, range inputs, close buttons, and tooltips. This allows developers to include only the components that they need for a project.
+CSS frameworks such as Foundation and Bootstrap use this approach. Both become quite 
+granular with separate files for progress bars, range inputs, close buttons, and 
+tooltips. This allows developers to include only the components that they need for a 
+project.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -4364,7 +4452,9 @@ CSS frameworks such as Foundation and Bootstrap use this approach. Both become q
 
 ## Q. What is DOM reflow?
 
-Reflow is the name of the web browser process for re-calculating the positions and geometries of elements in the document, for the purpose of re-rendering part or all of the document.
+Reflow is the name of the web browser process for re-calculating the positions and 
+geometries of elements in the document, for the purpose of re-rendering part or all 
+of the document.
 
 **Reflow occurs when**
 
@@ -4381,10 +4471,14 @@ Reflow is the name of the web browser process for re-calculating the positions a
 
 **Minimizing browser reflow**  
 
-* Reduce unnecessary DOM depth. Changes at one level in the DOM tree can cause changes at every level of the tree - all the way up to the root, and all the way down into the children of the modified node. This leads to more time being spent performing reflow.
+* Reduce unnecessary DOM depth. Changes at one level in the DOM tree can cause changes 
+* at every level of the tree - all the way up to the root, and all the way down into 
+* the children of the modified node. This leads to more time being spent performing reflow.
 * Minimize CSS rules, and remove unused CSS rules.
-* If you make complex rendering changes such as animations, do so out of the flow. Use position-absolute or position-fixed to accomplish this.
-* Avoid unnecessary complex CSS selectors - descendant selectors in particular - which require more CPU power to do selector matching.
+* If you make complex rendering changes such as animations, do so out of the flow. Use 
+* position-absolute or position-fixed to accomplish this.
+* Avoid unnecessary complex CSS selectors - descendant selectors in particular - which 
+* require more CPU power to do selector matching.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -4392,13 +4486,23 @@ Reflow is the name of the web browser process for re-calculating the positions a
 
 ## Q. How does CSS work under the hood?
 
-The CSS language is designed to be used alongside a "markup" language like HTML. CSS defines how HTML elements are formatted – controlling their layout, colors, fonts, and so on. When a browser displays a document, it must combine the document\'s content with its style information. It processes the document in a number of stages, which we\'ve listed below.
+The CSS language is designed to be used alongside a "markup" language like HTML. CSS 
+defines how HTML elements are formatted – controlling their layout, colors, fonts, and 
+so on. When a browser displays a document, it must combine the document\'s content with 
+its style information. It processes the document in a number of stages, which we\'ve 
+listed below.
 
 1. The browser loads the HTML (e.g. receives it from the network).
 2. It converts the HTML into a DOM (Document Object Model).
-3. The browser then fetches most of the resources that are linked to by the HTML document, such as embedded images and videos and linked CSS.
-4. The browser parses the fetched CSS, and sorts the different rules by their selector types into different "buckets", e.g. element, class, ID, and so on. Based on the selectors it finds, it works out which rules should be applied to which nodes in the DOM, and attaches style to them as required (this intermediate step is called a render tree).
-5. The render tree is laid out in the structure it should appear in after the rules have been applied to it.
+3. The browser then fetches most of the resources that are linked to by the HTML 
+   document, such as embedded images and videos and linked CSS.
+4. The browser parses the fetched CSS, and sorts the different rules by their selector 
+   types into different "buckets", e.g. element, class, ID, and so on. Based on the 
+   selectors it finds, it works out which rules should be applied to which nodes in 
+   the DOM, and attaches style to them as required (this intermediate step is called 
+   a render tree).
+5. The render tree is laid out in the structure it should appear in after the rules 
+   have been applied to it.
 6. The visual display of the page is shown on the screen (this stage is called painting).
 
 The following diagram also offers a simple view of the process.
@@ -4409,12 +4513,21 @@ The following diagram also offers a simple view of the process.
 
 **The DOM and CSSOM:**
 
-A DOM has a tree-like structure. Each element, attribute, and piece of text in the markup language becomes a DOM node in the tree structure. The nodes are defined by their relationship to other DOM nodes. Some elements are parents of child nodes, and child nodes have siblings. The browser undergo a process that includes conversion, tokenization, lexing, and parsing which ultimately constructs the DOM and CSSOM.
+A DOM has a tree-like structure. Each element, attribute, and piece of text in the 
+markup language becomes a DOM node in the tree structure. The nodes are defined by 
+their relationship to other DOM nodes. Some elements are parents of child nodes, and 
+child nodes have siblings. The browser undergo a process that includes conversion, 
+tokenization, lexing, and parsing which ultimately constructs the DOM and CSSOM.
 
 * **Conversion**: Reading raw bytes of HTML and CSS off the disk or network.
-* **Tokenization**: Breaking input into chunks (ex: start tags, end tags, attribute names, attribute values), striping irrelevant characters such as whitespace and line breaks.
-* **Lexing**: Like the tokenizer, but it also identifies the type of each token (this token is a number, that token is a string literal, this other token is an equality operator).
-* **Parsing**: Takes the stream of tokens from the lexer, interprets the tokens using a specific grammar, and turns it into an abstract syntax tree.
+* **Tokenization**: Breaking input into chunks (ex: start tags, end tags, attribute 
+* names, attribute values), striping irrelevant characters such as whitespace and 
+* line breaks.
+* **Lexing**: Like the tokenizer, but it also identifies the type of each token 
+* (this token is a number, that token is a string literal, this other token is 
+* an equality operator).
+* **Parsing**: Takes the stream of tokens from the lexer, interprets the tokens 
+* using a specific grammar, and turns it into an abstract syntax tree.
 
 **Example:** DOM Representation
 
@@ -4427,7 +4540,9 @@ A DOM has a tree-like structure. Each element, attribute, and piece of text in t
 </p>
 ````
 
-In the DOM, the node corresponding to our `<p>` element is a parent. Its children are a text node and the three nodes corresponding to our `<span>` elements. The SPAN nodes are also parents, with text nodes as their children:
+In the DOM, the node corresponding to our `<p>` element is a parent. Its children are 
+a text node and the three nodes corresponding to our `<span>` elements. The SPAN nodes 
+are also parents, with text nodes as their children:
 
 ```html
 P
@@ -4449,7 +4564,10 @@ span {
 }
 ```
 
-Once both tree structures are created, the rendering engine then attaches the data structures into what\'s called a render tree as part of the layout process. The render tree is a visual representation of the document which enable painting the contents of the page in their correct order. 
+Once both tree structures are created, the rendering engine then attaches the data 
+structures into what\'s called a render tree as part of the layout process. The 
+render tree is a visual representation of the document which enable painting the 
+contents of the page in their correct order. 
 
 Render tree construction follows the following order:
 
@@ -4457,7 +4575,8 @@ Render tree construction follows the following order:
 * Omit non visible nodes.
 * For each visible node find the appropriate matching CSSOM rules and apply them.
 * Emit visible nodes with content and their computed styles.
-* Finally, output a render tree that contains both the content and style information of all visible content on the screen.
+* Finally, output a render tree that contains both the content and style information of 
+* all visible content on the screen.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
