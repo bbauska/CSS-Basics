@@ -1,4 +1,4 @@
-<h2><a href="#top">CSS Basics</a></h2>
+# CSS Basics
 
 > *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
 
@@ -15,9 +15,15 @@
 
 ## Q. What is CSS?
 
-**CSS** stands for **Cascading Style Sheets**. CSS is used to define styles for web pages, including the design, layout and variations in display for different devices and screen sizes. CSS was intended to allow web professionals to separate the content and structure of a website\'s code from the visual design.
+**CSS** stands for **Cascading Style Sheets**. CSS is used to define styles for web pages, 
+including the design, layout and variations in display for different devices and screen 
+sizes. CSS was intended to allow web professionals to separate the content and structure 
+of a website\'s code from the visual design.
 
-CSS can be used for document text styling — for example changing the color and size of headings and links. It can be used to create layout — for example turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
+CSS can be used for document text styling — for example changing the color and size of 
+headings and links. It can be used to create layout — for example turning a single column 
+of text into a layout with a main content area and a sidebar for related information. It 
+can even be used for effects such as animation.
 
 **Example:**
 
@@ -33,12 +39,14 @@ p {
 ```
 
 <div align="right">
-  <b><a href="#top">↥ Back To Top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What is the use of css ruleset?
 
-CSS is a rule or set of rules that describe the formatting (change of appearance) of individual elements on a web page. The rule consists of two parts: the selector and the next declaration block. The image below shows the structure (syntax) of the rule:
+CSS is a rule or set of rules that describe the formatting (change of appearance) of 
+individual elements on a web page. The rule consists of two parts: the selector and the 
+next declaration block. The image below shows the structure (syntax) of the rule:
 
 ```css
 div {
@@ -51,13 +59,20 @@ div {
   <img src="assets/images/css-rule.png" alt="CSS rule" width="500px;" />
 </p>
 
-* The first is always the **selector**, it tells the browser which element or elements of the web page will be styled.
-* Next is the **declaration block**, which begins with the opening curly brace { and ends with the closing }, between the curly braces are specified formatting commands (declarations), which are used by the browser to stylize the selected selector element.
-* Each **declaration** consists of two parts: the property and its value. The declaration must always end with a semicolon (;). You can omit the ; only at the end of the last declaration before the closing curly brace.
-* A **property** is a formatting command that defines a specific style effect for an element. Each property has its own predefined set of values. After the property name, a colon is specified, which separates the property name from the valid value.
+* The first is always the **selector**, it tells the browser which element or elements 
+* of the web page will be styled.
+* Next is the **declaration block**, which begins with the opening curly brace { and 
+* ends with the closing }, between the curly braces are specified formatting commands 
+* (declarations), which are used by the browser to stylize the selected selector element.
+* Each **declaration** consists of two parts: the property and its value. The declaration 
+* must always end with a semicolon (;). You can omit the ; only at the end of the last 
+* declaration before the closing curly brace.
+* A **property** is a formatting command that defines a specific style effect for an 
+* element. Each property has its own predefined set of values. After the property name, 
+* a colon is specified, which separates the property name from the valid value.
 
 <div align="right">
-  <b><a href="#top">↥ Back To Top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What are the possible ways to apply CSS styles to a web page?
@@ -66,7 +81,9 @@ There are three ways to apply CSS to HTML: Inline, internal, and external.
 
 **1. Inline CSS:**
 
-Inline CSS is specified directly in the opening tag of the element you want it to apply to. It is entered into the style attribute within HTML. This allows CSS properties on a "per tag" basis.
+Inline CSS is specified directly in the opening tag of the element you want it to apply 
+to. It is entered into the style attribute within HTML. This allows CSS properties on a 
+"per tag" basis.
 
 **Example:**
 
@@ -74,11 +91,15 @@ Inline CSS is specified directly in the opening tag of the element you want it t
 <p style="font-weight:bold;">Bold Font</p>
 ```
 
-This CSS type is not really recommended, as each HTML tag needs to be styled individually. However, inline CSS in HTML can be useful in some situations. For example, in cases where you don\'t have access to CSS files or need to apply styles for a single element only.
+This CSS type is not really recommended, as each HTML tag needs to be styled 
+individually. However, inline CSS in HTML can be useful in some situations. For 
+example, in cases where you don\'t have access to CSS files or need to apply styles 
+for a single element only.
 
 **2. Internal CSS:**
 
-Internal or Embedded, styles are used for the whole page. Inside the head element, the style tags surround all of the styles for the page.
+Internal or Embedded, styles are used for the whole page. Inside the head element, the 
+style tags surround all of the styles for the page.
 
 **Example:**
 
@@ -99,11 +120,16 @@ Internal or Embedded, styles are used for the whole page. Inside the head elemen
 ...
 ```
 
-This CSS style is an effective method of styling a single page. However, using this style for multiple pages is time-consuming as you need to put CSS rules to every page of your website.
+This CSS style is an effective method of styling a single page. However, using this 
+style for multiple pages is time-consuming as you need to put CSS rules to every page 
+of your website.
 
 **3. External CSS:**
 
-In external CSS rules are stored in a separate file. To refer to that file from the HTML page, add the link element (and its closing element within XHTML) to the head element. This CSS type is a more efficient method, especially for styling a large website. By editing one **.css** file, you can change your entire site at once.
+In external CSS rules are stored in a separate file. To refer to that file from the 
+HTML page, add the link element (and its closing element within XHTML) to the head 
+element. This CSS type is a more efficient method, especially for styling a large 
+website. By editing one **.css** file, you can change your entire site at once.
 
 **style.css:**
 
@@ -126,17 +152,23 @@ In external CSS rules are stored in a separate file. To refer to that file from 
 ...
 ```
 
-The link element in the example has three attributes. The first, `rel`, tells the browser the type of the target of the link. The second, `type`, tells the browser what type of stylesheet it is. And the third, `href`, tells the browser under which URL to find the stylesheet.
+The link element in the example has three attributes. The first, `rel`, tells the browser 
+the type of the target of the link. The second, `type`, tells the browser what type of 
+stylesheet it is. And the third, `href`, tells the browser under which URL to find the 
+stylesheet.
 
 <div align="right">
-  <b><a href="#top">↥ Back To Top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What does the cascading portion of CSS mean?
 
-The **cascading** in CSS refers to the fact that styling rules "cascade" down from several sources. This means that CSS has an inherent hierarchy and styles of a higher precedence will overwrite rules of a lower precedence.
+The **cascading** in CSS refers to the fact that styling rules "cascade" down from 
+several sources. This means that CSS has an inherent hierarchy and styles of a higher 
+precedence will overwrite rules of a lower precedence.
 
-Even the simplest HTML document may have three or more style sheets associated with it including:
+Even the simplest HTML document may have three or more style sheets associated with 
+it including:
 
 * The browser\'s style sheet
 * The user\'s style sheet
@@ -144,27 +176,37 @@ Even the simplest HTML document may have three or more style sheets associated w
 
 **1. Browser style sheets:**
 
-Browsers apply style sheets to all web documents. Although these style sheets vary from browser to browser, they all have common characteristics such as black text, blue links, purple visited links etc. These are referred to as a "default" browser stylesheet.
+Browsers apply style sheets to all web documents. Although these style sheets vary from 
+browser to browser, they all have common characteristics such as black text, blue links, 
+purple visited links etc. These are referred to as a "default" browser stylesheet.
 
-As soon as you, the author, apply a style sheet to a document, it will override the browser\'s style sheet. This is because author style sheets will always override browser style sheets.
+As soon as you, the author, apply a style sheet to a document, it will override the 
+browser\'s style sheet. This is because author style sheets will always override 
+browser style sheets.
 
 **2. User style sheets:**
 
-Most modern browsers allow users to set their own style sheets within their browser. These style sheets will override the browsers default style sheets - for that user only.
+Most modern browsers allow users to set their own style sheets within their browser. 
+These style sheets will override the browsers default style sheets - for that user 
+only.
 
 **3. Author style sheets:**
 
-As soon as you apply a basic style sheet or an inline style to a page, you have added what is referred to as an "author style sheet". Everything you do, from choosing fonts, colours and laying out pages in CSS is done using author style sheets.
+As soon as you apply a basic style sheet or an inline style to a page, you have added 
+what is referred to as an "author style sheet". Everything you do, from choosing fonts, 
+colours and laying out pages in CSS is done using author style sheets.
+
 
 <div align="right">
-  <b><a href="#top">↥ Back To Top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. Explain new features in CSS3?
 
 **1. CSS3 Selectors:**
 
-* Matches any element **E** whose attribute **attr** starts with the value **val**. In other words, the val matches the beginning of the attribute value.
+* Matches any element **E** whose attribute **attr** starts with the value **val**. In 
+* other words, the val matches the beginning of the attribute value.
 
 ```css
 E[attr^=val]
@@ -172,7 +214,8 @@ E[attr^=val]
 a[href^='http://sales.']{color: teal;}
 ```
 
-* Matches any element **E** whose attribute **attr** ends in **val**. In other words, the val matches the end of the attribute value.
+* Matches any element **E** whose attribute **attr** ends in **val**. In other words, 
+* the val matches the end of the attribute value.
 
 ```css
 E[attr$=val]
@@ -180,7 +223,8 @@ E[attr$=val]
 a[href$='.jsp']{color: purple;}
 ```
 
-* Matches any element **E** whose attribute **attr** matches **val** anywhere within the attribute. It is similar to E[attr~=val], except the val can be part of a word.
+* Matches any element **E** whose attribute **attr** matches **val** anywhere within the 
+* attribute. It is similar to E[attr~=val], except the val can be part of a word.
 
 ```css
 E[attr*=val]  
@@ -192,14 +236,17 @@ img[src*='artwork']{
 
 **2. Pseudo-classes:**
 
-CSS2 supports user interaction pseudo-classes, namely `:link`, `:visited`, `:hover`, `:active`, and `:focus`.  
-A few more pseudo-class selectors were added in CSS3. One is the `:root` selector, which allows designers to point to the root element of a document.
+CSS2 supports user interaction pseudo-classes, namely `:link`, `:visited`, `:hover`, 
+`:active`, and `:focus`.  
+A few more pseudo-class selectors were added in CSS3. One is the `:root` selector, 
+which allows designers to point to the root element of a document.
 
 ```css
   :root{overflow:auto;}
 ```
 
-As a complement to the `:first-child` selector, the `:last-child` was added. With it one can select the last element named of a parent element.
+As a complement to the `:first-child` selector, the `:last-child` was added. With it 
+one can select the last element named of a parent element.
 
 ```css
   div.article > p:last-child{font-style: italic;}
@@ -216,7 +263,8 @@ A new user interaction pseudo-class selector was added, the `:target` selector.
 <p id='section2'>...</p>
 ```
 
-The negation pseudo-class selector, `:not` can be coupled with almost any other selector that has been implemented.
+The negation pseudo-class selector, `:not` can be coupled with almost any other selector 
+that has been implemented.
 
 ```css
   img:not([border]){ border: 1; }
@@ -224,7 +272,9 @@ The negation pseudo-class selector, `:not` can be coupled with almost any other 
 
 **3. CSS3 Colors:**
 
-The color keyword list has been extended in the CSS3 color module to include 147 additional keyword colors (that are generally well supported), CSS3 also provides us with a number of other options: **HSL**, **HSLA**, **RGBA** and **Opacity**.
+The color keyword list has been extended in the CSS3 color module to include 147 
+additional keyword colors (that are generally well supported), CSS3 also provides 
+us with a number of other options: **HSL**, **HSLA**, **RGBA** and **Opacity**.
 
 ```css
 div.halfopaque {
@@ -277,7 +327,9 @@ text-shadow: topOffset leftOffset blurRadius color;
 
 **9. Multiple Background Images:**
 
-In CSS3, there\'s no need to include an element for every background image; it provides us with the ability to add more than one background image to any element, even to pseudo-elements.
+In CSS3, there\'s no need to include an element for every background image; it provides 
+us with the ability to add more than one background image to any element, even to 
+pseudo-elements.
 
 ```css
 background-image:
@@ -287,14 +339,17 @@ url(thirdImage.png);
 ```
 
 <div align="right">
-  <b><a href="#top">↥ Back To Top</a></b>
+    <b><a href="#">↥ back to top</a></b>
 </div>
 
 ## Q. What are the css selectors?
 
-A CSS selector is the part of a CSS rule set that actually selects the content you want to style.
+A CSS selector is the part of a CSS rule set that actually selects the content you want 
+to style.
 
-**i) Universal Selector**: The universal selector works like a wild card character, selecting all elements on a page. Every HTML page is built on content placed within HTML tags. Each set of tags represents an element on the page.
+**i) Universal Selector**: The universal selector works like a wild card character, 
+selecting all elements on a page. Every HTML page is built on content placed within 
+HTML tags. Each set of tags represents an element on the page.
 
 ```css
 * {
@@ -331,7 +386,8 @@ ul {
 </ul>
 ```
 
-**iii) ID Selector**: This selector matches any HTML element that has an ID attribute with the same value as that of the selector.
+**iii) ID Selector**: This selector matches any HTML element that has an ID attribute 
+with the same value as that of the selector.
 
 ```css
 #container {
@@ -344,7 +400,8 @@ ul {
 <div id="container"></div>
 ```
 
-**iv) Class Selector**: The class selector also matches all elements on the page that have their class attribute set to the same value as the class.
+**iv) Class Selector**: The class selector also matches all elements on the page that 
+have their class attribute set to the same value as the class.
 
 ```css
 .box {
@@ -358,7 +415,9 @@ ul {
 <div class="box"></div>
 ```
 
-**v) Descendant Combinator**: The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.
+**v) Descendant Combinator**: The descendant selector or, more accurately, the 
+descendant combinator lets you combine two or more selectors so you can be more 
+specific in your selection method.
 
 ```css
 #container .box {
@@ -367,7 +426,10 @@ ul {
 }
 ```
 
-This declaration block will apply to all elements that have a class of box that are inside an element with an ID of `container`. It’s worth noting that the `.box` element doesn’t have to be an immediate child: there could be another element wrapping `.box`, and the styles would still apply.
+This declaration block will apply to all elements that have a class of box that are 
+inside an element with an ID of `container`. It’s worth noting that the `.box` element 
+doesn’t have to be an immediate child: there could be another element wrapping `.box`, 
+and the styles would still apply.
 
 ```html
 <div id="container">
@@ -379,7 +441,9 @@ This declaration block will apply to all elements that have a class of box that 
 <div class="box"></div>
 ```
 
-**vi) Child Combinator**: A selector that uses the child combinator is similar to a selector that uses a descendant combinator, except it only targets immediate child elements.
+**vi) Child Combinator**: A selector that uses the child combinator is similar to a 
+selector that uses a descendant combinator, except it only targets immediate child 
+elements.
 
 ```css
 #container > .box {
@@ -388,7 +452,9 @@ This declaration block will apply to all elements that have a class of box that 
 }
 ```
 
-The selector will match all elements that have a class of `box` and that are immediate children of the `#container` element. That means, unlike the descendant combinator, there can’t be another element wrapping `.box`—it has to be a direct child element.
+The selector will match all elements that have a class of `box` and that are immediate 
+children of the `#container` element. That means, unlike the descendant combinator, 
+there can’t be another element wrapping `.box`—it has to be a direct child element.
 
 ```html
 <div id="container">
@@ -400,7 +466,9 @@ The selector will match all elements that have a class of `box` and that are imm
 </div>
 ```
 
-**vii) General Sibling Combinator**: A selector that uses a general sibling combinator matches elements based on sibling relationships. The selected elements are beside each other in the HTML.
+**vii) General Sibling Combinator**: A selector that uses a general sibling combinator 
+matches elements based on sibling relationships. The selected elements are beside each 
+other in the HTML.
 
 ```css
 h2 ~ p {
@@ -408,7 +476,9 @@ h2 ~ p {
 }
 ```
 
-In this example, all paragraph elements (`<p>`) will be styled with the specified rules, but only if they are siblings of `<h2>` elements. There could be other elements in between the `<h2>` and `<p>`, and the styles would still apply.
+In this example, all paragraph elements (`<p>`) will be styled with the specified rules, 
+but only if they are siblings of `<h2>` elements. There could be other elements in 
+between the `<h2>` and `<p>`, and the styles would still apply.
 
 ```html
 <h2>Title</h2>
@@ -420,7 +490,10 @@ In this example, all paragraph elements (`<p>`) will be styled with the specifie
 </div>
 ```
 
-**viii) Adjacent Sibling Combinator**: A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
+**viii) Adjacent Sibling Combinator**: A selector that uses the adjacent sibling 
+combinator uses the plus symbol (+), and is almost the same as the general sibling 
+selector. The difference is that the targeted element must be an immediate sibling, 
+not just a general sibling.
 
 ```css
 p + p {
@@ -429,7 +502,10 @@ p + p {
 }
 ```
 
-In this example will apply the specified styles only to paragraph elements that immediately follow other paragraph elements. This means the first paragraph element on a page would not receive these styles. Also, if another element appeared between two paragraphs, the second paragraph of the two wouldn’t have the styles applied.
+In this example will apply the specified styles only to paragraph elements that 
+immediately follow other paragraph elements. This means the first paragraph element 
+on a page would not receive these styles. Also, if another element appeared between 
+two paragraphs, the second paragraph of the two wouldn’t have the styles applied.
 
 ```html
 <h2>Title</h2>
@@ -443,7 +519,8 @@ In this example will apply the specified styles only to paragraph elements that 
 </div>
 ```
 
-**ix) Attribute Selector**: The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets
+**ix) Attribute Selector**: The attribute selector targets elements based on the 
+presence and/or value of HTML attributes, and is declared using square brackets.
 
 ```css
 input[type="text"] {
@@ -456,7 +533,8 @@ input[type="text"] {
 <input type="text">
 ```
 
-The attribute selector can also be declared using just the attribute itself, with no value, like this:
+The attribute selector can also be declared using just the attribute itself, with no 
+value, like this:
 
 ```css
 input[type] {
@@ -465,7 +543,9 @@ input[type] {
 }
 ```
 
-**x) Pseudo-class**: A pseudo-class uses a colon character to identify a pseudo-state that an element might be in—for example, the state of being hovered, or the state of being activated.
+**x) Pseudo-class**: A pseudo-class uses a colon character to identify a pseudo-state 
+that an element might be in—for example, the state of being hovered, or the state of 
+being activated.
 
 ```css
 a:hover {
@@ -473,7 +553,8 @@ a:hover {
 }
 ```
 
-**xi) Pseudo-element**: A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to:
+**xi) Pseudo-element**: A CSS pseudo-element is used to style specified parts of an 
+element. For example, it can be used to:
 
 * Style the first letter, or line, of an element
 * Insert content before, or after, the content of an element 
@@ -524,9 +605,12 @@ a:hover {
 
 ## Q. What is contextual selector?
 
-Contextual selector addresses specific occurrence of an element. It is a string of individual selectors separated by white space (search pattern), where only the last element in the pattern is addressed providing it matches the specified contex.
+Contextual selector addresses specific occurrence of an element. It is a string of 
+individual selectors separated by white space (search pattern), where only the last 
+element in the pattern is addressed providing it matches the specified contex.
 
-It also check the context of the class in the html tree, assigning the style to the element through a specific route, taking into account the order of depth in the tree.
+It also check the context of the class in the html tree, assigning the style to the 
+element through a specific route, taking into account the order of depth in the tree.
 
 **Example:**
 
@@ -540,11 +624,16 @@ table p { property: value; }
 
 ## Q. What is the difference between Pseudo-classes and pseudo-elements?
 
-A pseudo-class is a selector that assists in the selection of something that cannot be expressed by a simple selector, for example `:hover`. A pseudo-element however allows us to create items that do not normally exist in the document tree, for example `::after`.
+A pseudo-class is a selector that assists in the selection of something that cannot 
+be expressed by a simple selector, for example `:hover`. A pseudo-element however 
+allows us to create items that do not normally exist in the document tree, for 
+example `::after`.
 
 **Pseudo-classes:**  
 
-Pseudo-classes select regular elements but under certain conditions, like when their position relative to siblings or when they\'re under a particular state. Here is a list of pseudo-classes in CSS3:
+Pseudo-classes select regular elements but under certain conditions, like when their 
+position relative to siblings or when they\'re under a particular state. Here is a 
+list of pseudo-classes in CSS3:
 
 **a) Dynamic pseudo-classes:**  
 
@@ -583,7 +672,8 @@ Pseudo-classes select regular elements but under certain conditions, like when t
 
 **Pseudo-elements:**  
 
-Pseudo-elements effectively create new elements that are not specified in the markup of the document and can be manipulated much like a regular element. 
+Pseudo-elements effectively create new elements that are not specified in the markup 
+of the document and can be manipulated much like a regular element. 
 
 * ::before
 * ::after
@@ -597,9 +687,11 @@ Pseudo-elements effectively create new elements that are not specified in the ma
 
 ## Q. What is Combinator selector?
 
-A combinator is the character in a selector that connects two selectors together. There are four types of combinators. 
+A combinator is the character in a selector that connects two selectors together. There 
+are four types of combinators. 
 
-**a) Descendant Combinator (space)**: The descendant selector matches all elements that are descendants of a specified element.
+**a) Descendant Combinator (space)**: The descendant selector matches all elements that 
+are descendants of a specified element.
 
 The following example selects all `<p>` elements inside `<div>` elements:
 
@@ -609,7 +701,8 @@ div p {
 }
 ```
 
-**b) Child Combinator (>)**: The child selector selects all elements that are the children of a specified element.
+**b) Child Combinator (>)**: The child selector selects all elements that are the 
+children of a specified element.
 
 The following example selects all `<p>` elements that are children of a `<div>` element:
 
@@ -619,9 +712,11 @@ div > p {
 }
 ```
 
-**c) Adjacent Sibling Combinator (+)**: The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element.
+**c) Adjacent Sibling Combinator (+)**: The adjacent sibling selector selects all 
+elements that are the adjacent siblings of a specified element.
 
-The following example selects all `<p>` elements that are placed immediately after `<div>` elements:
+The following example selects all `<p>` elements that are placed immediately after 
+`<div>` elements:
 
 ```css
 div + p {
@@ -629,7 +724,8 @@ div + p {
 }
 ```
 
-**d) General Sibling Combinator (~)**: The general sibling selector selects all elements that are siblings of a specified element.
+**d) General Sibling Combinator (~)**: The general sibling selector selects all elements 
+that are siblings of a specified element.
 
 The following example selects all `<p>` elements that are siblings of `<div>` elements:
 
@@ -645,7 +741,10 @@ div ~ p {
 
 ## Q. What is the difference between class selectors and id selectors?
 
-In the CSS, a class selector is a name preceded by a full stop (".") and an ID selector is a name preceded by a hash character ("#"). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+In the CSS, a class selector is a name preceded by a full stop (".") and an ID selector 
+is a name preceded by a hash character ("#"). The difference between an ID and a class 
+is that an ID can be used to identify one element, whereas a class can be used to 
+identify more than one.
 
 ```css
 #top {
@@ -673,7 +772,10 @@ In the CSS, a class selector is a name preceded by a full stop (".") and an ID s
 
 ## Q. What is the difference between the “nth-child()” and “nth-of-type()” selectors?
 
-The `nth-child()` pseudo-class is used to match an element based on a number, which represents the element\'s position amongst it\'s siblings. More specifically, the number represents the number of siblings that exist before the element in the document tree (minus 1).
+The `nth-child()` pseudo-class is used to match an element based on a number, which 
+represents the element\'s position amongst it\'s siblings. More specifically, the 
+number represents the number of siblings that exist before the element in the 
+document tree (minus 1).
 
 **Example:**
 
@@ -691,7 +793,9 @@ The `nth-child()` pseudo-class is used to match an element based on a number, wh
 </div>
 ```
 
-The `nth-of-type()` pseudo-class, like nth-child(), is used to match an element based on a number. This number, however, represents the element\'s position within only those of its siblings that are of the same element type.
+The `nth-of-type()` pseudo-class, like nth-child(), is used to match an element 
+based on a number. This number, however, represents the element\'s position within 
+only those of its siblings that are of the same element type.
 
 This number can also be expressed as a function, or using the keywords even or odd.
 
@@ -715,7 +819,10 @@ This number can also be expressed as a function, or using the keywords even or o
 
 ## Q. Explain CSS grid layout with example?
 
-CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables us to align elements into columns and rows.
+CSS Grid Layout excels at dividing a page into major regions or defining the 
+relationship in terms of size, position, and layer, between parts of a control 
+built from HTML primitives. Like tables, grid layout enables us to align elements 
+into columns and rows.
 
 **Basic Terminology:**
 
@@ -724,8 +831,10 @@ CSS Grid Layout excels at dividing a page into major regions or defining the rel
 </p>
 
 * **Grid Item**: The grid container contains the grid items.
-* **Grid Line**: The grid line is either a vertical or horizontal grid line that makes up the structure of the grid.
-* **Grid Cell**: The smallest unit on a grid is referred to as a Grid cell. It is the space between the two adjacent rows and columns.
+* **Grid Line**: The grid line is either a vertical or horizontal grid line that 
+* makes up the structure of the grid.
+* **Grid Cell**: The smallest unit on a grid is referred to as a Grid cell. It is 
+* the space between the two adjacent rows and columns.
 * **Rows**: The grid row is the horizontal track of the grid.
 * **Columns**: The grid column is the vertical track of the grid.
 * **Gutter**: A gutter is a space between the rows and columns in the grid.
@@ -734,27 +843,27 @@ CSS Grid Layout excels at dividing a page into major regions or defining the rel
 
 |Property         |Description                       |
 |-----------------|----------------------------------|
-|column-gap	      |Specifies the gap between the columns|
-|gap	            |A shorthand property for the row-gap and the column-gap properties|
-|grid	            |A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties|
-|grid-area	      |Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties|
+|column-gap          |Specifies the gap between the columns|
+|gap                |A shorthand property for the row-gap and the column-gap properties|
+|grid                |A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties|
+|grid-area          |Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties|
 |grid-auto-columns|Specifies a default column size|
-|grid-auto-flow	  |Specifies how auto-placed items are inserted in the grid|
-|grid-auto-rows	  |Specifies a default row size|
-|grid-column	    |A shorthand property for the grid-column-start and the grid-column-end properties|
-|grid-column-end	|Specifies where to end the grid item|
-|grid-column-gap	|Specifies the size of the gap between columns|
+|grid-auto-flow      |Specifies how auto-placed items are inserted in the grid|
+|grid-auto-rows      |Specifies a default row size|
+|grid-column        |A shorthand property for the grid-column-start and the grid-column-end properties|
+|grid-column-end    |Specifies where to end the grid item|
+|grid-column-gap    |Specifies the size of the gap between columns|
 |grid-column-start|Specifies where to start the grid item|
-|grid-gap	        |A shorthand property for the grid-row-gap and grid-column-gap properties|
-|grid-row	        |A shorthand property for the grid-row-start and the grid-row-end properties|
-|grid-row-end	    |Specifies where to end the grid item|
-|grid-row-gap	    |Specifies the size of the gap between rows|
-|grid-row-start	  |Specifies where to start the grid item|
-|grid-template	  |A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties|
+|grid-gap            |A shorthand property for the grid-row-gap and grid-column-gap properties|
+|grid-row            |A shorthand property for the grid-row-start and the grid-row-end properties|
+|grid-row-end        |Specifies where to end the grid item|
+|grid-row-gap        |Specifies the size of the gap between rows|
+|grid-row-start      |Specifies where to start the grid item|
+|grid-template      |A shorthand property for the grid-template-rows, grid-template-columns and grid-areas properties|
 |grid-template-areas|Specifies how to display columns and rows, using named grid items|
-|grid-template-columns	|Specifies the size of the columns, and how many columns in a grid layout|
-|grid-template-rows	    |Specifies the size of the rows in a grid layout|
-|row-gap	         |Specifies the gap between the grid rows|
+|grid-template-columns    |Specifies the size of the columns, and how many columns in a grid layout|
+|grid-template-rows        |Specifies the size of the rows in a grid layout|
+|row-gap             |Specifies the gap between the grid rows|
 
 **Example:**
 
@@ -826,7 +935,10 @@ CSS Grid Layout excels at dividing a page into major regions or defining the rel
 
 ## Q. What is CSS flexbox?
 
-The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning. Flexbox makes it simple to align items vertically and horizontally using rows and columns. Items will "flex" to different sizes to fill the space.
+The Flexible Box Layout Module, makes it easier to design flexible responsive layout 
+structure without using float or positioning. Flexbox makes it simple to align items 
+vertically and horizontally using rows and columns. Items will "flex" to different 
+sizes to fill the space.
 
 Before the Flexbox Layout module, there were four layout modes:
 
@@ -837,7 +949,10 @@ Before the Flexbox Layout module, there were four layout modes:
 
 **Flex Container:**
 
-An area of a document laid out using flexbox is called a **flex container**. To create a flex container, we set the value of the area\'s container\'s `display` property to `flex` or `inline-flex`. As soon as we do this the direct children of that container become **flex items**.
+An area of a document laid out using flexbox is called a **flex container**. To create a 
+flex container, we set the value of the area\'s container\'s `display` property to 
+`flex` or `inline-flex`. As soon as we do this the direct children of that container 
+become **flex items**.
 
 **Flexbox Terminology:**
 
@@ -919,10 +1034,19 @@ An area of a document laid out using flexbox is called a **flex container**. To 
 
 ## Q. When to use css grid and flexbox?
 
-* CSS Grid Layout is a **two-dimensional** system, meaning it can handle both columns and rows, unlike flexbox which is largely a **one-dimensional** system (either in a column or a row).
-* A core difference between CSS Grid and Flexbox is that — CSS Grid’s approach is **layout-first** while Flexbox’ approach is **content-first**. If you are well aware of your content before making layout, then blindly opt for Flexbox and if not, opt for CSS Grid.
-* Flexbox layout is most appropriate to the components of an application (as most of them are fundamentally linear), and **small-scale** layouts, while the Grid layout is intended for **larger-scale** layouts which aren’t linear in their design.
-* If you only need to define a layout as a row or a column, then you probably need flexbox. If you want to define a grid and fit content into it in two dimensions — you need the grid.
+* CSS Grid Layout is a **two-dimensional** system, meaning it can handle both columns 
+* and rows, unlike flexbox which is largely a **one-dimensional** system (either in a 
+* column or a row).
+* A core difference between CSS Grid and Flexbox is that — CSS Grid’s approach is 
+* **layout-first** while Flexbox’ approach is **content-first**. If you are well aware 
+* of your content before making layout, then blindly opt for Flexbox and if not, opt 
+* for CSS Grid.
+* Flexbox layout is most appropriate to the components of an application (as most 
+* of them are fundamentally linear), and **small-scale** layouts, while the Grid layout 
+* is intended for **larger-scale** layouts which aren’t linear in their design.
+* If you only need to define a layout as a row or a column, then you probably need 
+* flexbox. If you want to define a grid and fit content into it in two dimensions — 
+* you need the grid.
 
 <p align="center">
   <img src="assets/images/flex.png" alt="One-Dimensional" />
@@ -1013,7 +1137,11 @@ An area of a document laid out using flexbox is called a **flex container**. To 
 
 ## Q. What is CSS BEM?
 
-The BEM (**Block Element Modifier**) methodology is a naming convention for CSS classes in order to keep CSS more maintainable by defining namespaces to solve scoping issues. A Block is a standalone component that is reusable across projects and acts as a "namespace" for sub components (Elements). Modifiers are used as flags when a Block or Element is in a certain state or is different in structure or style.
+The BEM (**Block Element Modifier**) methodology is a naming convention for CSS classes 
+in order to keep CSS more maintainable by defining namespaces to solve scoping issues. 
+A Block is a standalone component that is reusable across projects and acts as a 
+"namespace" for sub components (Elements). Modifiers are used as flags when a Block 
+or Element is in a certain state or is different in structure or style.
 
 ```css
 /* block component */
@@ -1033,40 +1161,43 @@ The BEM (**Block Element Modifier**) methodology is a naming convention for CSS 
 
 ```css
 .button {
-	display: inline-block;
-	border-radius: 3px;
-	padding: 7px 12px;
-	border: 1px solid #D5D5D5;
-	background-image: linear-gradient(#EEE, #DDD);
-	font: 700 13px/18px Helvetica, arial;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 12px;
+    border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    font: 700 13px/18px Helvetica, arial;
 }
 .button--state-success {
-	color: #FFF;
-	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
-	border-color: #4A993E;
+    color: #FFF;
+    background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+    border-color: #4A993E;
 }
 .button--state-danger {
-	color: #900;
+    color: #900;
 }
 ```
 
 ```html
 <button class="button">
-	Normal button
+    Normal button
 </button>
 <button class="button button--state-success">
-	Success button
+    Success button
 </button>
 <button class="button button--state-danger">
-	Danger button
+    Danger button
 </button>
 ```
 
 **Benefits:**  
 
-* **Modularity**: Block styles are never dependent on other elements on a page, so you will never experience problems from cascading.
-* **Reusability**: Composing independent blocks in different ways, and reusing them intelligently, reduces the amount of CSS code that you will have to maintain.
-* **Structure**: BEM methodology gives your CSS code a solid structure that remains simple and easy to understand.
+* **Modularity**: Block styles are never dependent on other elements on a page, so you 
+* will never experience problems from cascading.
+* **Reusability**: Composing independent blocks in different ways, and reusing them 
+* intelligently, reduces the amount of CSS code that you will have to maintain.
+* **Structure**: BEM methodology gives your CSS code a solid structure that remains 
+* simple and easy to understand.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -1074,19 +1205,28 @@ The BEM (**Block Element Modifier**) methodology is a naming convention for CSS 
 
 ## Q. What are the benefits of using CSS sprites? 
 
-CSS sprites combine multiple images into one single larger image. It is a commonly-used technique for icons. 
+CSS sprites combine multiple images into one single larger image. It is a commonly-used 
+technique for icons. 
 
 **Advantages:**
 
-* Reduce the number of ```HTTP``` requests for multiple images (only one single request is required per spritesheet). But with ```HTTP2```, loading multiple images is no longer much of an issue.
-* Advance downloading of assets that won\'t be downloaded until needed, such as images that only appear upon `:hover` pseudo-states. Blinking wouldn\'t be seen.
+* Reduce the number of ```HTTP``` requests for multiple images (only one single request 
+* is required per spritesheet). But with ```HTTP2```, loading multiple images is no longer 
+* much of an issue.
+* Advance downloading of assets that won\'t be downloaded until needed, such as images 
+* that only appear upon `:hover` pseudo-states. Blinking wouldn\'t be seen.
 
 
-* When you have multiple images/ icons, browser makes separate call to the server for each one of them. sprite is a technique to combine all/ some of them (usually similar one in terms of type of image. For example, you will put jpg in one sprite) in one image. To display the icon you set height, width and background position.
+* When you have multiple images/ icons, browser makes separate call to the server for 
+each one of them. sprite is a technique to combine all/ some of them (usually similar 
+one in terms of type of image. For example, you will put jpg in one sprite) in one 
+image. To display the icon you set height, width and background position.
 
 **Alternatives:**
 
-* Data URIs - allow you to embed the image data directly into a stylesheet. This avoids additional HTTP requests for images, making it essentially the same thing as a sprite, without the fancy positioning.
+* Data URIs - allow you to embed the image data directly into a stylesheet. This avoids 
+* additional HTTP requests for images, making it essentially the same thing as a sprite, 
+* without the fancy positioning.
 * Icon Fonts
 * SVGs
 
@@ -1096,7 +1236,11 @@ CSS sprites combine multiple images into one single larger image. It is a common
 
 ## Q. What is tweening in css?
 
-The pose-to-pose option is to create a few keyframes throughout the sequence, and then fill in the gaps later. Filling in these gaps is known as **tweening**. It is the process of generating intermediate frames between two images. It gives the impression that the first image has smoothly evolved into the second one. In CSS3, Transforms (matrix, translate, rotate, scale etc.) module can be used to achieve tweening.
+The pose-to-pose option is to create a few keyframes throughout the sequence, and then 
+fill in the gaps later. Filling in these gaps is known as **tweening**. It is the 
+process of generating intermediate frames between two images. It gives the impression 
+that the first image has smoothly evolved into the second one. In CSS3, Transforms 
+(matrix, translate, rotate, scale etc.) module can be used to achieve tweening.
 
 **Example:**
 
@@ -1123,10 +1267,13 @@ p {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. Explain the difference between `visibility: hidden;` and `display: none;`? What are the pros and cons of using `display:none`?
+## Q. Explain the difference between `visibility: hidden;` and `display: none;`? What 
+## are the pros and cons of using `display:none`?
 
-* **visibility: hidden** simply hides the element but it will occupy space and affect the layout of the document.  
-* **display: none** removes the element from the normal layout flow (causes DOM reflow). It will not affect the layout of the document nor occupy space.
+* **visibility: hidden** simply hides the element but it will occupy space and affect the 
+* layout of the document.  
+* **display: none** removes the element from the normal layout flow (causes DOM reflow). 
+* It will not affect the layout of the document nor occupy space.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -1134,7 +1281,10 @@ p {
 
 ## Q. What is the purpose of the `z-index` and how a stacking context is formed?
 
-The `z-index` helps specify the stack order of positioned elements that may overlap one another. The `z-index` default value is zero, and can take on either a positive or negative number. An element with a higher `z-index` is always stacked above than a lower index.
+The `z-index` helps specify the stack order of positioned elements that may overlap one 
+another. The `z-index` default value is zero, and can take on either a positive or 
+negative number. An element with a higher `z-index` is always stacked above than a 
+lower index.
 
 `z-index` can take the following values:
 
@@ -1187,15 +1337,26 @@ The `z-index` helps specify the stack order of positioned elements that may over
   <img src="assets/images/css-position-all.png" alt="One-Dimensional" />
 </p>
 
-* **absolute**, place an element exactly where you want to place it. absolute position is actually set relative to the element\'s parent. if no parent available then relatively place to the page itself (it will default all the way back up to the <html> element).
+* **absolute**, place an element exactly where you want to place it. absolute position 
+* is actually set relative to the element\'s parent. if no parent available then relatively 
+* place to the page itself (it will default all the way back up to the <html> element).
 
-* **relative**, means "relative to itself". Setting position: relative; on an element and no other positioning attributes, it will no effect on it\'s positioning. It allows the use of `z-index` on the element and it limits the scope of absolutely positioned child elements. Any child element will be absolutely positioned within that block.
+* **relative**, means "relative to itself". Setting position: relative; on an element and 
+* no other positioning attributes, it will no effect on it\'s positioning. It allows the 
+* use of `z-index` on the element and it limits the scope of absolutely positioned child 
+* elements. Any child element will be absolutely positioned within that block.
 
-* **fixed**, element is positioned relative to viewport or the browser window itself. viewport doesn\'t changed if you scroll and hence fixed element will stay right in the same position.
+* **fixed**, element is positioned relative to viewport or the browser window itself. 
+* viewport doesn\'t changed if you scroll and hence fixed element will stay right in 
+* the same position.
 
-* **static** default for every single page element. The only reason you would ever set an element to position: static is to forcefully-remove some positioning that got applied to an element outside of your control.
+* **static** default for every single page element. The only reason you would ever set 
+* an element to position: static is to forcefully-remove some positioning that got 
+* applied to an element outside of your control.
 
-* **sticky** - Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as `relative` positioned until it crosses a specified threshold, at which point it is treated as `fixed` positioned.
+* **sticky** - Sticky positioning is a hybrid of relative and fixed positioning. The 
+* element is treated as `relative` positioned until it crosses a specified threshold, 
+* at which point it is treated as `fixed` positioned.
 
 **Live Demo**: [CSS Position Property](https://learning-zone.github.io/css-interview-questions/assets/files/position-index.html)
 
@@ -1209,7 +1370,9 @@ The `z-index` helps specify the stack order of positioned elements that may over
 
 An element with `position: relative;` is positioned relative to its normal position.
 
-Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+Setting the top, right, bottom, and left properties of a relatively-positioned element 
+will cause it to be adjusted away from its normal position. Other content will not be 
+adjusted to fit into any gap left by the element.
 
 <p align="center">
   <img src="assets/images/relative-position.png" alt="CSS rule" width="250px;" />
@@ -1246,7 +1409,8 @@ Setting the top, right, bottom, and left properties of a relatively-positioned e
 
 **Absolute Position:**
 
-An element with `position: absolute;` will cause it to adjust its position with respect to its parent. If no parent is present, then it uses the document body as parent.
+An element with `position: absolute;` will cause it to adjust its position with respect 
+to its parent. If no parent is present, then it uses the document body as parent.
 
 <p align="center">
   <img src="assets/images/absolute-position.png" alt="CSS rule" width="350px;" />
@@ -1299,7 +1463,8 @@ An element with `position: absolute;` will cause it to adjust its position with 
 ## Q. The difference between block, inline and inline-block element?
 
 **a) Block Elements**  
-The block elements always start on a new line. They will also take space of an entire row or width. List of block elements are `<p>`, `<h1>`, `<div>`, `<header>`.
+The block elements always start on a new line. They will also take space of an entire row 
+or width. List of block elements are `<p>`, `<h1>`, `<div>`, `<header>`.
 
 **Example:**
 
@@ -1318,9 +1483,13 @@ The block elements always start on a new line. They will also take space of an e
 ```
 
 **b) Inline Elements**  
-Inline elements don\'t start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are `<a>`, `<span>` , `<strong>`, and `<img>` tags.
+Inline elements don\'t start on a new line, they appear on the same line as the content 
+and tags beside them. Some examples of inline elements are `<a>`, `<span>` , `<strong>`, 
+and `<img>` tags.
 
-When it comes to margins and padding, browsers treat inline elements differently. You can add space to the left and right on an inline element, but you cannot add height to the top or bottom padding or margin of an inline element.
+When it comes to margins and padding, browsers treat inline elements differently. You can 
+add space to the left and right on an inline element, but you cannot add height to the top 
+or bottom padding or margin of an inline element.
 
 **Example:**
 
@@ -1332,8 +1501,11 @@ When it comes to margins and padding, browsers treat inline elements differently
 ```
 
 **c) Inline-Block Elements**  
-Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides.
-One common use for using inline-block is for creating navigation links horizontally. Some examples of inline-block elements are `<input>`, `<button>`, `<select>`, `<textarea>` etc.
+Inline-block elements are similar to inline elements, except they can have padding and 
+margins added on all four sides.
+One common use for using inline-block is for creating navigation links horizontally. 
+Some examples of inline-block elements are `<input>`, `<button>`, `<select>`, 
+`<textarea>` etc.
 
 ```css
 input {
@@ -1360,7 +1532,12 @@ button {
 
 ## Q. What are counters in CSS3?
 
-CSS counters let you adjust the appearance of content based on its location in a document. To use a CSS counter, it must first be initialized to a value with the `counter-reset` property (0 by default). The same property can also be used to change its value to any specific number. Once initialized, a counter\'s value can be increased or decreased with counter-increment. The counter\'s name must not be "none", "inherit", or "initial"; otherwise the declaration is ignored.
+CSS counters let you adjust the appearance of content based on its location in a 
+document. To use a CSS counter, it must first be initialized to a value with the 
+`counter-reset` property (0 by default). The same property can also be used to 
+change its value to any specific number. Once initialized, a counter\'s value 
+can be increased or decreased with counter-increment. The counter\'s name must 
+not be "none", "inherit", or "initial"; otherwise the declaration is ignored.
 
 ```css
 body {
@@ -1383,11 +1560,11 @@ h3::before {
 
 **CSS Counter Properties:**
 
-|Property	        |Description  |
+|Property            |Description  |
 |-----------------|-------------------------------------------------------------------------------|
-|content	        |Used with the ::before and ::after pseudo-elements, to insert generated content|
+|content            |Used with the ::before and ::after pseudo-elements, to insert generated content|
 |counter-increment|Increments one or more counter values|
-|counter-reset	  |Creates or resets one or more counters|
+|counter-reset      |Creates or resets one or more counters|
 
 **Example:**
 
@@ -1424,7 +1601,10 @@ h3::before {
 
 ## Q. How do you specify units in the CSS?
 
-There are various units in CSS to express the measurement and length. A CSS unit is used to determine the property size, which we set for an element or its content. The units in CSS are required to define the measurement such as margin: 20px; in which the px (or pixel) is the CSS unit. They are used to set margin, padding, lengths, and so on.
+There are various units in CSS to express the measurement and length. A CSS unit is used 
+to determine the property size, which we set for an element or its content. The units in 
+CSS are required to define the measurement such as margin: 20px; in which the px (or 
+pixel) is the CSS unit. They are used to set margin, padding, lengths, and so on.
 
 The length unit in CSS is of two types:
 
@@ -1433,33 +1613,35 @@ The length unit in CSS is of two types:
 
 **Absolute length units:**
 
-The following are all absolute length units — they are not relative to anything else, and are generally considered to always be the same size.
+The following are all absolute length units — they are not relative to anything else, 
+and are generally considered to always be the same size.
 
-|Unit	        |Name	                |Equivalent to        |
+|Unit            |Name                    |Equivalent to        |
 |-------------|---------------------|---------------------|
-|cm	          |Centimeters	        |1cm = 38px = 25/64in|
-|mm	          |Millimeters	        |1mm = 1/10th of 1cm|
-|Q	          |Quarter-millimeters	|1Q = 1/40th of 1cm|
-|in	          |Inches	              |1in = 2.54cm = 96px|
-|pc	          |Picas	              |1pc = 1/6th of 1in|
-|pt	          |Points	              |1pt = 1/72th of 1in|
-|px	          |Pixels	              |1px = 1/96th of 1in|
+|cm              |Centimeters            |1cm = 38px = 25/64in|
+|mm              |Millimeters            |1mm = 1/10th of 1cm|
+|Q              |Quarter-millimeters    |1Q = 1/40th of 1cm|
+|in              |Inches                  |1in = 2.54cm = 96px|
+|pc              |Picas                  |1pc = 1/6th of 1in|
+|pt              |Points                  |1pt = 1/72th of 1in|
+|px              |Pixels                  |1px = 1/96th of 1in|
 
 **Relative length units:**
 
-Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.
+Relative length units specify a length relative to another length property. Relative 
+length units scale better between different rendering medium.
 
-|Unit	           |Relative to                                   |
+|Unit               |Relative to                                   |
 |----------------|----------------------------------------------|
-|em	             |Font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like width.|
-|ex	             |x-height of the element\'s font.|
-|ch	             |The advance measure (width) of the glyph "0" of the element\'s font.|
-|rem	           |Font size of the root element.|
-|lh	             |Line height of the element.|
-|vw	             |1% of the viewport\'s width.|
-|vh	             |1% of the viewport\'s height.|
-|vmin	           |1% of the viewport\'s smaller dimension.|
-|vmax	           |1% of the viewport\'s larger dimension.|
+|em                 |Font size of the parent, in the case of typographical properties like font-size, and font size of the element itself, in the case of other properties like width.|
+|ex                 |x-height of the element\'s font.|
+|ch                 |The advance measure (width) of the glyph "0" of the element\'s font.|
+|rem               |Font size of the root element.|
+|lh                 |Line height of the element.|
+|vw                 |1% of the viewport\'s width.|
+|vh                 |1% of the viewport\'s height.|
+|vmin               |1% of the viewport\'s smaller dimension.|
+|vmax               |1% of the viewport\'s larger dimension.|
 
 **Example:**
 
@@ -1504,11 +1686,20 @@ Relative length units specify a length relative to another length property. Rela
 
 ## Q. Which one would you prefer among px, em % or pt and why?
 
-* ```px``` gives fine grained control and maintains alignment because 1 px or multiple of 1 px is guaranteed to look sharp. px is not cascade, this means if parent font-size is 20px and child 16px. child would be 16px.
+* ```px``` gives fine grained control and maintains alignment because 1 px or multiple 
+           of 1 px is guaranteed to look sharp. px is not cascade, this means if parent 
+		   font-size is 20px and child 16px. child would be 16px.
 
-* ```em``` maintains relative size. you can have responsive fonts. em is the width of the letter 'm' in the selected typeface. However, this concept is tricky. 1em is equal to the current font-size of the element or the browser default. if u sent font-size to 16px then 1em = 16px. The common practice is to set default body font-size to 62.5% (equal to 10px). em is cascade
+* ```em``` maintains relative size. you can have responsive fonts. em is the width of the 
+           letter 'm' in the selected typeface. However, this concept is tricky. 1em is 
+		   equal to the current font-size of the element or the browser default. if u 
+		   sent font-size to 16px then 1em = 16px. The common practice is to set default 
+		   body font-size to 62.5% (equal to 10px). em is cascade
 
-* ```%``` sets font-size relative to the font size of the body. Hence, you have to set font-size of the body to a reasonable size. this is easy to use and does cascade. for example, if parent font-size is 20px and child font-size is 50%. child would be 10px.
+* ```%``` sets font-size relative to the font size of the body. Hence, you have to set 
+          font-size of the body to a reasonable size. this is easy to use and does cascade. 
+		  for example, if parent font-size is 20px and child font-size is 50%. child would 
+		  be 10px.
 
 * ```pt```(points) are traditionally used in print. 1pt = 1/72 inch and it is fixed-size unit.
 
@@ -1527,13 +1718,13 @@ For example, it can be used to:
 
 **CSS Pseudo Elements:**  
 
-|Sl.No|Selector	      |Example	        |description|
+|Sl.No|Selector          |Example            |description|
 |-----|---------------|-----------------|-------------|
-| 01. |::after	      |p::after	        |Insert something after the content of each <p> element|
-| 02. |::before	      |p::before	      |Insert something before the content of each <p> element|
-| 03. |::first-letter	|p::first-letter	|Selects the first letter of each <p> element|
-| 04. |::first-line	  |p::first-line	  |Selects the first line of each <p> element|
-| 05. |::selection	  |p::selection	    |Selects the portion of an element that is selected by a user|
+| 01. |::after          |p::after            |Insert something after the content of each <p> element|
+| 02. |::before          |p::before          |Insert something before the content of each <p> element|
+| 03. |::first-letter    |p::first-letter    |Selects the first letter of each <p> element|
+| 04. |::first-line      |p::first-line      |Selects the first line of each <p> element|
+| 05. |::selection      |p::selection        |Selects the portion of an element that is selected by a user|
 
 
 **2. Pseudo-classes**: A pseudo-class is used to define a special state of an element.
@@ -1546,39 +1737,39 @@ For example, it can be used to:
 
 **CSS Pseudo Classes:**  
 
-| Sl.No |Selector	         | Example	              |description|
+| Sl.No |Selector             | Example                  |description|
 |-------|------------------|------------------------|-----------|
-| 01.  |:active	           |a:active	              |Selects the active link|
-| 02.  |:checked	         |input:checked	          |Selects every checked `<input>` element|
-| 03.  |:disabled	         |input:disabled	        |Selects every disabled `<input>` element|
-| 04.  |:empty	           |p:empty	                |Selects every `<p>` element that has no children|
-| 05.  |:enabled	         |input:enabled	          |Selects every enabled `<input>` element|
-| 06.  |:first-child	     |p:first-child	          |Selects every `<p>` elements that is the first child of its parent|
-| 07.  |:first-of-type	   |p:first-of-type	        |Selects every `<p>` element that is the first `<p>` element of its parent|
-| 08.  |:focus	           |input:focus	            |Selects the `<input>` element that has focus|
-| 09.  |:hover	           |a:hover	                |Selects links on mouse over|
-| 10.  |:in-range	         |input:in-range	        |Selects `<input>` elements with a value within a specified range|
-| 11.  |:invalid	         |input:invalid	          |Selects all `<input>` elements with an invalid value|
-| 12.  |:lang(language)	   |p:lang(it)	            |Selects every `<p>` element with a lang attribute value starting with "it"|
-| 13.  |:last-child	       |p:last-child	          |Selects every `<p>` elements that is the last child of its parent|
-| 14.  |:last-of-type	     |p:last-of-type	        |Selects every `<p>` element that is the last `<p>` element of its parent|
-| 15.  |:link	             |a:link	                |Selects all unvisited links|
-| 16.  |:not(selector)	   |:not(p)	                |Selects every element that is not a `<p>` element|
-| 17.  |:nth-child(n)	     |p:nth-child(2)	        |Selects every `<p>` element that is the second child of its parent|
-| 18.  |:nth-last-child(n) |p:nth-last-child(2)	    |Selects every `<p>` element that is the second child of its parent, |counting from the last child|
-| 19.  |:nth-last-of-type(n) |p:nth-last-of-type(2)	|Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child|
-| 20.  |:nth-of-type(n)	    |p:nth-of-type(2)	      |Selects every `<p>` element that is the second `<p>` element of its parent|
-| 21.  |:only-of-type	      |p:only-of-type	        |Selects every `<p>` element that is the only `<p>` element of its parent|
-| 22.  |:only-child	        |p:only-child	          |Selects every `<p>` element that is the only child of its parent|
-| 23.  |:optional	          |input:optional	        |Selects `<input>` elements with no "required" attribute|
-| 24.  |:out-of-range	      |input:out-of-range	    |Selects `<input>` elements with a value outside a specified range|
-| 25.  |:read-only	        |input:read-only	      |Selects `<input>` elements with a "readonly" attribute specified|
-| 26.  |:read-write	        |input:read-write	      |Selects `<input>` elements with no "readonly" attribute|
-| 27.  |:required	          |input:required	        |Selects `<input>` elements with a "required" attribute specified|
-| 28.  |:root	root	        |                       |Selects the document\'s root element|
-| 29.  |:target	            |#news:target	          |Selects the current active #news element (clicked on a URL containing that anchor name)|
-| 30.  |:valid	            |input:valid	          |Selects all `<input>` elements with a valid value|
-| 31.  |:visited	          |a:visited	            |Selects all visited links|
+| 01.  |:active               |a:active                  |Selects the active link|
+| 02.  |:checked             |input:checked              |Selects every checked `<input>` element|
+| 03.  |:disabled             |input:disabled            |Selects every disabled `<input>` element|
+| 04.  |:empty               |p:empty                    |Selects every `<p>` element that has no children|
+| 05.  |:enabled             |input:enabled              |Selects every enabled `<input>` element|
+| 06.  |:first-child         |p:first-child              |Selects every `<p>` elements that is the first child of its parent|
+| 07.  |:first-of-type       |p:first-of-type            |Selects every `<p>` element that is the first `<p>` element of its parent|
+| 08.  |:focus               |input:focus                |Selects the `<input>` element that has focus|
+| 09.  |:hover               |a:hover                    |Selects links on mouse over|
+| 10.  |:in-range             |input:in-range            |Selects `<input>` elements with a value within a specified range|
+| 11.  |:invalid             |input:invalid              |Selects all `<input>` elements with an invalid value|
+| 12.  |:lang(language)       |p:lang(it)                |Selects every `<p>` element with a lang attribute value starting with "it"|
+| 13.  |:last-child           |p:last-child              |Selects every `<p>` elements that is the last child of its parent|
+| 14.  |:last-of-type         |p:last-of-type            |Selects every `<p>` element that is the last `<p>` element of its parent|
+| 15.  |:link                 |a:link                    |Selects all unvisited links|
+| 16.  |:not(selector)       |:not(p)                    |Selects every element that is not a `<p>` element|
+| 17.  |:nth-child(n)         |p:nth-child(2)            |Selects every `<p>` element that is the second child of its parent|
+| 18.  |:nth-last-child(n) |p:nth-last-child(2)        |Selects every `<p>` element that is the second child of its parent, |counting from the last child|
+| 19.  |:nth-last-of-type(n) |p:nth-last-of-type(2)    |Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child|
+| 20.  |:nth-of-type(n)        |p:nth-of-type(2)          |Selects every `<p>` element that is the second `<p>` element of its parent|
+| 21.  |:only-of-type          |p:only-of-type            |Selects every `<p>` element that is the only `<p>` element of its parent|
+| 22.  |:only-child            |p:only-child              |Selects every `<p>` element that is the only child of its parent|
+| 23.  |:optional              |input:optional            |Selects `<input>` elements with no "required" attribute|
+| 24.  |:out-of-range          |input:out-of-range        |Selects `<input>` elements with a value outside a specified range|
+| 25.  |:read-only            |input:read-only          |Selects `<input>` elements with a "readonly" attribute specified|
+| 26.  |:read-write            |input:read-write          |Selects `<input>` elements with no "readonly" attribute|
+| 27.  |:required              |input:required            |Selects `<input>` elements with a "required" attribute specified|
+| 28.  |:root    root            |                       |Selects the document\'s root element|
+| 29.  |:target                |#news:target              |Selects the current active #news element (clicked on a URL containing that anchor name)|
+| 30.  |:valid                |input:valid              |Selects all `<input>` elements with a valid value|
+| 31.  |:visited              |a:visited                |Selects all visited links|
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -1589,9 +1780,11 @@ For example, it can be used to:
 The CSS box model is a rectangular layout paradigm for HTML elements that consists of the following:
 
 * **Content**: The content of the box, where text and images appear
-* **Padding**: A transparent area surrounding the content (i.e., the amount of space between the border and the content)
+* **Padding**: A transparent area surrounding the content (i.e., the amount of space 
+               between the border and the content)
 * **Border**: A border surrounding the padding (if any) and content
-* **Margin**: A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
+* **Margin**: A transparent area surrounding the border (i.e., the amount of space 
+              between the border and any neighboring elements)
 
 <p align="center">
   <img src="assets/images/box-model.png" alt="CSS Box Model" width="300px;" />
@@ -1641,7 +1834,9 @@ The size of the box itself is calculated like this:
 
 ## Q. How you would tell the browser in CSS to render your layout in different box models?
 
-The **box-sizing** property allows us to include the padding and border in an element\'s total width and height. If you set `box-sizing: border-box;` on an element, padding and border are included in the width and height
+The **box-sizing** property allows us to include the padding and border in an element\'s 
+total width and height. If you set `box-sizing: border-box;` on an element, padding and 
+border are included in the width and height
 
 **Syntax:**
 
@@ -1654,9 +1849,9 @@ box-sizing: content-box|border-box|initial|inherit;
 |Value       |Description                              |
 |------------|-----------------------------------------|
 |content-box |Default. The width and height properties (and min/max properties) includes only the content. Border and padding are not included|
-|border-box	 |The width and height properties (and min/max properties) includes content, padding and border|
-|initial	   |Sets this property to its default value. Read about initial|
-|inherit	   |Inherits this property from its parent element. Read about inherit|
+|border-box     |The width and height properties (and min/max properties) includes content, padding and border|
+|initial       |Sets this property to its default value. Read about initial|
+|inherit       |Inherits this property from its parent element. Read about inherit|
 
 **Example:**
 
@@ -1725,7 +1920,8 @@ The width and height properties (and min/max properties) includes content, paddi
 ## Q. Explain the meaning of each of these CSS units for expressing length?
 
 * ```cm``` centimeters
-* ```em``` elements (i.e., relative to the font-size of the element; e.g., 2 em means 2 times the current font size)
+* ```em``` elements (i.e., relative to the font-size of the element; e.g., 2 em means 2 
+           times the current font size)
 * ```in``` inches
 * ```mm``` millimeters
 * ```pc``` picas (1 pc = 12 pt = 1/6th of an inch)
@@ -1765,8 +1961,11 @@ The width and height properties (and min/max properties) includes content, paddi
 
 The box-sizing CSS property sets how the total width and height of an element is calculated.
 
-* **content-box**: the default width and height values apply to the element\'s content only. The padding and border are added to the outside of the box.
-* **padding-box**: Width and height values apply to the element\'s content and its padding. The border is added to the outside of the box. Currently, only Firefox supports the padding-box value.
+* **content-box**: the default width and height values apply to the element\'s content 
+*   only. The padding and border are added to the outside of the box.
+* **padding-box**: Width and height values apply to the element\'s content and its 
+*   padding. The border is added to the outside of the box. Currently, only Firefox 
+*   supports the padding-box value.
 * **border-box**: Width and height values apply to the content, padding, and border.
 * **inherit**: inherits the box sizing of the parent element.
 
@@ -1830,7 +2029,8 @@ Pre-processors extend CSS with variables, operators, interpolations, functions, 
 * Easy to write nested selectors.
 * Variables for consistent theming. Can share theme files across different projects.
 * Mixins to generate repeated CSS.
-* Splitting your code into multiple files. CSS files can be split up too but doing so will require an HTTP request to download each CSS file.
+* Splitting your code into multiple files. CSS files can be split up too but doing so 
+* will require an HTTP request to download each CSS file.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -1838,7 +2038,9 @@ Pre-processors extend CSS with variables, operators, interpolations, functions, 
 
 ## Q. What is the difference between "resetting" and "normalizing" CSS?
 
-**1. Resetting**: CSS resets aim to remove all built-in browser styling. For example margins, paddings, font-sizes of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.
+**1. Resetting**: CSS resets aim to remove all built-in browser styling. For example 
+margins, paddings, font-sizes of all elements are reset to be the same. You will have 
+to redeclare styling for common typographic elements.
 
 **Example:**
 
@@ -1857,7 +2059,8 @@ footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, 
 }
 ```
 
-**2. Normalizing**: Normalize CSS aims to make built-in browser styling consistent across browsers. It also corrects bugs for common browser dependencies.
+**2. Normalizing**: Normalize CSS aims to make built-in browser styling consistent across 
+browsers. It also corrects bugs for common browser dependencies.
 
 **Example:**
 
@@ -1875,18 +2078,25 @@ footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, 
 
 ## Q. Explain CSS Block Formatting Context?
 
-Floats, absolutely positioned elements, block containers (such as inline-blocks, table-cells, and table-captions) that are not block boxes, and block boxes with 'overflow' other than 'visible' (except when that value has been propagated to the viewport) establish new block formatting contexts for their contents.
+Floats, absolutely positioned elements, block containers (such as inline-blocks, 
+table-cells, and table-captions) that are not block boxes, and block boxes with 
+'overflow' other than 'visible' (except when that value has been propagated to 
+the viewport) establish new block formatting contexts for their contents.
 
-In a block formatting context, each box\'s left outer edge touches the left edge of the containing block (for right-to-left formatting, right edges touch)
+In a block formatting context, each box\'s left outer edge touches the left edge 
+of the containing block (for right-to-left formatting, right edges touch)
 
 A BFC is an HTML box that satisfies at least one of the following conditions:
 
 * The value of `float` is not `none`.
 * The value of `position` is neither `static` nor `relative`.
-* The value of `display` is `table-cell`, `table-caption`, `inline-block`, `flex`, or `inline-flex`.
+* The value of `display` is `table-cell`, `table-caption`, `inline-block`, `flex`, 
+* or `inline-flex`.
 * The value of `overflow` is not `visible`.
 
-In a BFC, each box\'s left outer edge touches the left edge of the containing block (for right-to-left formatting, right edges touch). Vertical margins between adjacent block-level boxes in a BFC collapse. 
+In a BFC, each box\'s left outer edge touches the left edge of the containing block 
+(for right-to-left formatting, right edges touch). Vertical margins between adjacent 
+block-level boxes in a BFC collapse. 
 
 **Example:**
 
@@ -1951,7 +2161,8 @@ In a BFC, each box\'s left outer edge touches the left edge of the containing bl
 
 ## Q. What is the float property and what float do?
 
-The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. 
+The float CSS property places an element on the left or right side of its container, 
+allowing text and inline elements to wrap around it. 
 
 **Syntax:**
 
@@ -1973,10 +2184,10 @@ float: unset;
 
 |Sl.No| Value  | Description| 
 |-----|--------|------------|
-| 01. |none	   |The element does not float, (will be displayed just where it occurs in the text).|	
-| 02. |left	   |The element floats to the left of its container	|
-| 03. |right	 |The element floats the right of its container	|
-| 04. |initial |Sets this property to its default value.    	|
+| 01. |none       |The element does not float, (will be displayed just where it occurs in the text).|    
+| 02. |left       |The element floats to the left of its container    |
+| 03. |right     |The element floats the right of its container    |
+| 04. |initial |Sets this property to its default value.        |
 | 05. |inherit |Inherits this property from its parent element. |
 
 **Example:**:
@@ -2048,7 +2259,9 @@ div {
 
 ## Q. Explain the purpose of clearing floats in CSS?
 
-The **clear** property is directly related to the float property. It specifies if an element should be next to the floated elements or if it should move below them. This property applies to both floated and non-floated elements.
+The **clear** property is directly related to the float property. It specifies if an 
+element should be next to the floated elements or if it should move below them. This 
+property applies to both floated and non-floated elements.
 
 **CSS Syntax:**
 
@@ -2058,12 +2271,12 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 
 **Property Values:**
 
-|Value       |Description	                                       |
+|Value       |Description                                           |
 |------------|---------------------------------------------------|
-|none	       |The element is not moved down to clear past floats.|
-|left	       |The element is moved down to clear past left floats.|
-|right	     |The element is moved down to clear past right floats.|
-|Both 	     |The element is moved down to clear past both left and right floats.|
+|none           |The element is not moved down to clear past floats.|
+|left           |The element is moved down to clear past left floats.|
+|right         |The element is moved down to clear past right floats.|
+|Both          |The element is moved down to clear past both left and right floats.|
 
 **Example:**
 
@@ -2125,9 +2338,13 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 
 ## Q. What is a clearfix in CSS?
 
-A **clearfix** is a way for an element to clear its child elements automatically without any additional markup. The clearfix property is generally used in float layouts where elements are floated to be stacked horizontally.
+A **clearfix** is a way for an element to clear its child elements automatically 
+without any additional markup. The clearfix property is generally used in float 
+layouts where elements are floated to be stacked horizontally.
 
-The clearfix property allows a container to wrap its floated children. Without a clearfix, a container will not wrap around its floated children and will collapse, just as if its floated children had been positioned absolutely.
+The clearfix property allows a container to wrap its floated children. Without a 
+clearfix, a container will not wrap around its floated children and will collapse, 
+just as if its floated children had been positioned absolutely.
 
 <p align="center">
   <img src="assets/images/clearfix.png" alt="CSS rule" width="800px;" />
@@ -2185,11 +2402,14 @@ The clearfix property allows a container to wrap its floated children. Without a
 
 ## Q. Does `overflow: hidden` create a new block formatting context?
 
-Yes. overflow property deals with the content if content size exceeds the allocated size for the content. You can make extra content visible, hidden, scroll or auto (viewport default behavior).
+Yes. overflow property deals with the content if content size exceeds the allocated size 
+for the content. You can make extra content visible, hidden, scroll or auto (viewport 
+default behavior).
 
 ## Q. How would you approach fixing browser-specific styling issues?
 
-* Use a separate style sheet that only loads when that specific browser is being used. This technique requires server-side rendering though.
+* Use a separate style sheet that only loads when that specific browser is being used. 
+* This technique requires server-side rendering though.
 * Use `autoprefixer` to automatically add vendor prefixes to your code.
 * Use Reset CSS or Normalize.css.
 
@@ -2199,7 +2419,7 @@ Yes. overflow property deals with the content if content size exceeds the alloca
   background-color: red;
   background-image: url(gradient-slice.png);
   background-image: -webkit-linear-gradient(top right, #A60000, #FFFFFF); /*Chrome and Safari*/
-  background-image: -moz-linear-gradient(top right, #A60000, #FFFFFF); 	  /*Firefox*/
+  background-image: -moz-linear-gradient(top right, #A60000, #FFFFFF);       /*Firefox*/
   background-image: -ms-linear-gradient(top right, #A60000, #FFFFFF);     /*Internet Explorer*/
   background-image: -o-linear-gradient(top right, #A60000, #FFFFFF);      /*Opera*/
   background-image: linear-gradient(top right, #A60000, #FFFFFF);
@@ -2207,9 +2427,9 @@ Yes. overflow property deals with the content if content size exceeds the alloca
 
 /*Example: 02*/
 .box {
-	-moz-border-radius: 15px;    /* Firefox */
-	-webkit-border-radius: 15px; /* Safari and Chrome */
-	border-radius: 15px;
+    -moz-border-radius: 15px;    /* Firefox */
+    -webkit-border-radius: 15px; /* Safari and Chrome */
+    border-radius: 15px;
 }
 ```
 
@@ -2276,10 +2496,10 @@ h1.technique-three {
 
 ```css
 h1.technique-four {
-	width: 350px; 
+    width: 350px; 
   height: 75px;
-	background: url("images/header-image.jpg");
-	text-indent: -9999px;
+    background: url("images/header-image.jpg");
+    text-indent: -9999px;
 }
 ```
 ```html
@@ -2294,9 +2514,9 @@ h1.technique-four {
 
 ```css
 h1.technique-five {
-	width: 350px; 
+    width: 350px; 
   height: 75px;
-	background: url("images/header-image.jpg");
+    background: url("images/header-image.jpg");
 }
 h1.technique-five span {
   display: none;
@@ -2314,11 +2534,11 @@ h1.technique-five span {
 
 ```css
 h1.technique-six {
-	width: 350px;
-	padding: 75px 0 0 0;
-	height: 0;
-	background: url("images/header-image.jpg") no-repeat;
-	overflow: hidden;
+    width: 350px;
+    padding: 75px 0 0 0;
+    height: 0;
+    background: url("images/header-image.jpg") no-repeat;
+    overflow: hidden;
 }
 ```
 
@@ -2332,9 +2552,9 @@ h1.technique-six {
 
 ```css
 h1.technique-seven {
-	width: 350px; 
+    width: 350px; 
   height: 75px;
-	background: url("images/header-image.jpg") no-repeat;
+    background: url("images/header-image.jpg") no-repeat;
 }
 h1.technique-seven span {
   display: block;
@@ -2346,7 +2566,7 @@ h1.technique-seven span {
 
 ```html
 <h1 class="technique-seven">
-	<span>CSS-Tricks</span>
+    <span>CSS-Tricks</span>
 </h1>
 ```
 
@@ -2354,9 +2574,9 @@ h1.technique-seven span {
 
 ```css
 h1.technique-eight {
-	width: 350px; 
+    width: 350px; 
   height: 75px;
-	position: relative;
+    position: relative;
 }
 h1.technique-eight span {
   background: url("images/header-image.jpg");
@@ -2396,14 +2616,17 @@ h1.technique-nine {
 
 ## Q. What are media queries? How could you apply css rules specific to a media?
 
-Media queries are useful when you want to modify your site or app depending on a device\'s general type (such as print vs. screen) or specific characteristics and parameters (such as screen resolution or browser viewport width). It uses the @media rule to include a block of CSS properties only if a certain condition is true.
+Media queries are useful when you want to modify your site or app depending on a device\'s 
+general type (such as print vs. screen) or specific characteristics and parameters (such as 
+screen resolution or browser viewport width). It uses the @media rule to include a block of 
+CSS properties only if a certain condition is true.
 
 **Media Types:**
 
 |Sl.No| Value | Description          |
 |------|-------|---------------------|
-|  01. |all	   |Default. Used for all media type devices|
-|  02. |print	 |Used for printers|
+|  01. |all       |Default. Used for all media type devices|
+|  02. |print     |Used for printers|
 |  03. |screen |Used for computer screens, tablets, smart-phones etc.|
 |  04. |speech |Used for screenreaders that "reads" the page out loud|
 
@@ -2411,41 +2634,41 @@ Media queries are useful when you want to modify your site or app depending on a
 
 |Sl.No | Value           | Description          |
 |------|-----------------|----------------------|  
-| 01.  |any-hover	       | Does any available input mechanism allow the user to hover over elements? |
-| 02.  |any-pointer	     | Is any available input mechanism a pointing device, and if so, how accurate is it? |
-| 03.  |aspect-ratio	   | The ratio between the width and the height of the viewport|
-| 04.  |color	           | The number of bits per color component for the output device|
-| 05.  |color-gamut	     | The approximate range of colors that are supported by the user agent and output device|
-| 06.  |color-index	     | The number of colors the device can display|
-| 07.  |grid	           | Whether the device is a grid or bitmap|
-| 08.  |height	         | The viewport height|
-| 09.  |hover	           | Does the primary input mechanism allow the user to hover over elements? |
-| 10.  |inverted-colors	 | Is the browser or underlying OS inverting colors? |
-| 11.  |light-level	     | Current ambient light level |
-| 12.  |max-aspect-ratio |	The maximum ratio between the width and the height of the display area|
-| 13.  |max-color	       | The maximum number of bits per color component for the output device|
-| 14.  |max-color-index	 | The maximum number of colors the device can display|
-| 15.  |max-height	     | The maximum height of the display area, such as a browser window|
-| 16.  |max-monochrome	 | The maximum number of bits per "color" on a monochrome (greyscale) device|
-| 17.  |max-resolution	 | The maximum resolution of the device, using dpi or dpcm|
-| 18.  |max-width	       | The maximum width of the display area, such as a browser window|
-| 19.  |min-aspect-ratio |	The minimum ratio between the width and the height of the display area|
-| 20.  |min-color	       | The minimum number of bits per color component for the output device|
-| 21.  |min-color-index	 | The minimum number of colors the device can display|
-| 22.  |min-height	     | The minimum height of the display area, such as a browser window|
-| 23.  |min-monochrome	 | The minimum number of bits per "color" on a monochrome (greyscale) device|
-| 24.  |min-resolution	 | The minimum resolution of the device, using dpi or dpcm|
-| 25.  |min-width	       | The minimum width of the display area, such as a browser window|
-| 26.  |monochrome	     | The number of bits per "color" on a monochrome (greyscale) device|
-| 27.  |orientation	     | The orientation of the viewport (landscape or portrait mode)|
-| 28.  |overflow-block	 | How does the output device handle content that overflows the viewport along the block axis| 
-| 29.  |overflow-inline	 | Can content that overflows the viewport along the inline axis be scrolled |
-| 30.  |pointer	         | Is the primary input mechanism a pointing device, and if so, how accurate is it? |
-| 31.  |resolution	     | The resolution of the output device, using dpi or dpcm|
-| 32.  |scan	           | The scanning process of the output device|
-| 33.  |scripting	       | Is scripting (e.g. JavaScript) available? |
-| 34.  |update	         | How quickly can the output device modify the appearance of the content |
-| 35.  |width	           | The viewport width |
+| 01.  |any-hover           | Does any available input mechanism allow the user to hover over elements? |
+| 02.  |any-pointer         | Is any available input mechanism a pointing device, and if so, how accurate is it? |
+| 03.  |aspect-ratio       | The ratio between the width and the height of the viewport|
+| 04.  |color               | The number of bits per color component for the output device|
+| 05.  |color-gamut         | The approximate range of colors that are supported by the user agent and output device|
+| 06.  |color-index         | The number of colors the device can display|
+| 07.  |grid               | Whether the device is a grid or bitmap|
+| 08.  |height             | The viewport height|
+| 09.  |hover               | Does the primary input mechanism allow the user to hover over elements? |
+| 10.  |inverted-colors     | Is the browser or underlying OS inverting colors? |
+| 11.  |light-level         | Current ambient light level |
+| 12.  |max-aspect-ratio |    The maximum ratio between the width and the height of the display area|
+| 13.  |max-color           | The maximum number of bits per color component for the output device|
+| 14.  |max-color-index     | The maximum number of colors the device can display|
+| 15.  |max-height         | The maximum height of the display area, such as a browser window|
+| 16.  |max-monochrome     | The maximum number of bits per "color" on a monochrome (greyscale) device|
+| 17.  |max-resolution     | The maximum resolution of the device, using dpi or dpcm|
+| 18.  |max-width           | The maximum width of the display area, such as a browser window|
+| 19.  |min-aspect-ratio |    The minimum ratio between the width and the height of the display area|
+| 20.  |min-color           | The minimum number of bits per color component for the output device|
+| 21.  |min-color-index     | The minimum number of colors the device can display|
+| 22.  |min-height         | The minimum height of the display area, such as a browser window|
+| 23.  |min-monochrome     | The minimum number of bits per "color" on a monochrome (greyscale) device|
+| 24.  |min-resolution     | The minimum resolution of the device, using dpi or dpcm|
+| 25.  |min-width           | The minimum width of the display area, such as a browser window|
+| 26.  |monochrome         | The number of bits per "color" on a monochrome (greyscale) device|
+| 27.  |orientation         | The orientation of the viewport (landscape or portrait mode)|
+| 28.  |overflow-block     | How does the output device handle content that overflows the viewport along the block axis| 
+| 29.  |overflow-inline     | Can content that overflows the viewport along the inline axis be scrolled |
+| 30.  |pointer             | Is the primary input mechanism a pointing device, and if so, how accurate is it? |
+| 31.  |resolution         | The resolution of the output device, using dpi or dpcm|
+| 32.  |scan               | The scanning process of the output device|
+| 33.  |scripting           | Is scripting (e.g. JavaScript) available? |
+| 34.  |update             | How quickly can the output device modify the appearance of the content |
+| 35.  |width               | The viewport width |
 
 
 **Example:**
@@ -2508,9 +2731,15 @@ Use `@font-face` and define `font-family` for different `font-weight`s.
 
 ## Q. How a browser determines what elements match a CSS selector?
 
-Browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector.
+Browsers match selectors from rightmost (key selector) to left. Browsers filter out 
+elements in the DOM according to the key selector and traverse up its parent elements 
+to determine matches. The shorter the length of the selector chain, the faster the 
+browser can determine if that element matches the selector.
 
-For example with this selector `p span`, browsers firstly find all the `<span>` elements and traverse up its parent all the way up to the root to find the `<p>` element. For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
+For example with this selector `p span`, browsers firstly find all the `<span>` 
+elements and traverse up its parent all the way up to the root to find the `<p>` 
+element. For a particular `<span>`, as soon as it finds a `<p>`, it knows that 
+the `<span>` matches and can stop its matching.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -2529,7 +2758,9 @@ For example with this selector `p span`, browsers firstly find all the `<span>` 
 }
 ```
 
-**matchMedia()**: Using matchMedia lets you execute blocks of JavaScript only when a certain media query condition is met. This means you can just write out the CSS when and if the query is true:
+**matchMedia()**: Using matchMedia lets you execute blocks of JavaScript only when a 
+certain media query condition is met. This means you can just write out the CSS when 
+and if the query is true:
 
 ```javascript
 if (window.matchMedia('screen and (min-width: 600px)')) {
@@ -2544,12 +2775,17 @@ if (window.matchMedia('screen and (min-width: 600px)')) {
 ## Q. What does  `* { box-sizing: border-box; }` do? What are its advantages?
 
 * Make every element in the document include the padding and border in the element\'s inner dimensions; 
-making it easier to reason about the layout of elements on the page.
-* By default, elements have `box-sizing: content-box` applied, and only the content size is being accounted for.
-* `box-sizing: border-box` changes how the `width` and `height` of elements are being calculated, `border` and `padding` are also being included in the calculation.
-* The `height` of an element is now calculated by the content\'s `height` + vertical `padding` + vertical `border` width.
-* The `width` of an element is now calculated by the content\'s `width` + horizontal `padding` + horizontal `border` width.
-* Taking into account `padding`s and `border`s as part of our box model resonates better with how designers actually imagine content in grids.
+* making it easier to reason about the layout of elements on the page.
+* By default, elements have `box-sizing: content-box` applied, and only the content size 
+* is being accounted for.
+* `box-sizing: border-box` changes how the `width` and `height` of elements are being 
+* calculated, `border` and `padding` are also being included in the calculation.
+* The `height` of an element is now calculated by the content\'s `height` + vertical 
+* `padding` + vertical `border` width.
+* The `width` of an element is now calculated by the content\'s `width` + horizontal `padding` + 
+* horizontal `border` width.
+* Taking into account `padding`s and `border`s as part of our box model resonates better with 
+* how designers actually imagine content in grids.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -2570,31 +2806,31 @@ p.ex4 {display: inline-block;}
 
 **Property Values:**
 
-|Sl.No|Value	   |Description	
+|Sl.No|Value       |Description    
 |-----|---------------|------------------
-| 01. |inline	|Displays an element as an inline element (like `<span>`). Any height and width properties will have no effect|	
-| 02. |block	|Displays an element as a block element (like `<p>`). It starts on a new line, and takes up the whole width	|
-| 03. |contents|Makes the container disappear, making the child elements children of the element the next level up in the DOM	|
-| 04. |flex	          |Displays an element as a block-level flex container	|
-| 05. |grid	          |Displays an element as a block-level grid container	|
-| 06. |inline-block   |Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values|	
-| 07. |inline-flex	   |Displays an element as an inline-level flex container	|
-| 08. |inline-grid	   |Displays an element as an inline-level grid container	|
-| 09. |inline-table    |The element is displayed as an inline-level table	|
-| 10. |list-item	     |Let the element behave like a `<li>` element	|
-| 11. |run-in	         |Displays an element as either block or inline, depending on context	|
-| 12. |table	         |Let the element behave like a `<table>` element	|
-| 13. |table-caption	 |Let the element behave like a `<caption>` element	|
-| 14. |table-column-group	|Let the element behave like a `<colgroup>` element	|
-| 15. |table-header-group	|Let the element behave like a `<thead>` element	|
-| 16. |table-footer-group	|Let the element behave like a `<tfoot>` element	|
-| 17. |table-row-group	  |Let the element behave like a `<tbody>` element	|
-| 18. |table-cell	        |Let the element behave like a `<td>` element	|
-| 19. |table-column	      |Let the element behave like a `<col>` element	|
-| 20. |table-row	        |Let the element behave like a `<tr>` element	|
-| 21. |none	              |The element is completely removed	|
-| 22. |initial	          |Sets this property to its default value. Read about initial	|
-| 23. |inherit	          |Inherits this property from its parent element. Read about inherit|
+| 01. |inline    |Displays an element as an inline element (like `<span>`). Any height and width properties will have no effect|    
+| 02. |block    |Displays an element as a block element (like `<p>`). It starts on a new line, and takes up the whole width    |
+| 03. |contents|Makes the container disappear, making the child elements children of the element the next level up in the DOM    |
+| 04. |flex              |Displays an element as a block-level flex container    |
+| 05. |grid              |Displays an element as a block-level grid container    |
+| 06. |inline-block   |Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values|    
+| 07. |inline-flex       |Displays an element as an inline-level flex container    |
+| 08. |inline-grid       |Displays an element as an inline-level grid container    |
+| 09. |inline-table    |The element is displayed as an inline-level table    |
+| 10. |list-item         |Let the element behave like a `<li>` element    |
+| 11. |run-in             |Displays an element as either block or inline, depending on context    |
+| 12. |table             |Let the element behave like a `<table>` element    |
+| 13. |table-caption     |Let the element behave like a `<caption>` element    |
+| 14. |table-column-group    |Let the element behave like a `<colgroup>` element    |
+| 15. |table-header-group    |Let the element behave like a `<thead>` element    |
+| 16. |table-footer-group    |Let the element behave like a `<tfoot>` element    |
+| 17. |table-row-group      |Let the element behave like a `<tbody>` element    |
+| 18. |table-cell            |Let the element behave like a `<td>` element    |
+| 19. |table-column          |Let the element behave like a `<col>` element    |
+| 20. |table-row            |Let the element behave like a `<tr>` element    |
+| 21. |none                  |The element is completely removed    |
+| 22. |initial              |Sets this property to its default value. Read about initial    |
+| 23. |inherit              |Inherits this property from its parent element. Read about inherit|
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -2602,11 +2838,18 @@ p.ex4 {display: inline-block;}
 
 ## Q. How is responsive design different from adaptive design? 
 
-**1) Responsive design** uses `CSS media queries` to change styles based on the target device such as display type, width, height, etc., and only one of these is necessary for the site to adapt to different screens.
+**1) Responsive design** uses `CSS media queries` to change styles based on the target 
+device such as display type, width, height, etc., and only one of these is necessary for 
+the site to adapt to different screens.
 
-Responsive doesn’t offer as much control as adaptive, but takes much less work to both build and maintain. Responsive layouts are also fluid and whilst adaptive can and do use percentages to give a more fluid feel when scaling, these can again cause a jump when a window is resized. 
+Responsive doesn’t offer as much control as adaptive, but takes much less work to both 
+build and maintain. Responsive layouts are also fluid and whilst adaptive can and do 
+use percentages to give a more fluid feel when scaling, these can again cause a jump 
+when a window is resized. 
 
-**2) Adaptive design** uses static layouts based on breakpoints which don\'t respond once they\’re initially loaded. Adaptive works to detect the screen size and load the appropriate layout for it.
+**2) Adaptive design** uses static layouts based on breakpoints which don\'t respond 
+once they\’re initially loaded. Adaptive works to detect the screen size and load the 
+appropriate layout for it.
 Generally adaptive site uses six common screen widths:
 
 * 320 px
@@ -2616,17 +2859,26 @@ Generally adaptive site uses six common screen widths:
 * 1200 px
 * 1600 px
 
-Adaptive is useful for retrofitting an existing site in order to make it more mobile-friendly. This allows you to take control of the design and develop for specific, multiple viewports. 
+Adaptive is useful for retrofitting an existing site in order to make it more 
+mobile-friendly. This allows you to take control of the design and develop for 
+specific, multiple viewports. 
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. What is retina graphics? What kind of techniques do you use to handle images for retina screens?
+## Q. What is retina graphics? What kind of techniques do you use to handle images 
+## for retina screens?
 
-In order to have crisp, good-looking graphics that make the best of retina displays we need to use high resolution images whenever possible. However using always the highest resolution images will have an impact on performance as more bytes will need to be sent over the wire.
+In order to have crisp, good-looking graphics that make the best of retina displays we 
+need to use high resolution images whenever possible. However using always the highest 
+resolution images will have an impact on performance as more bytes will need to be sent 
+over the wire.
 
-To overcome this problem, we can use responsive images, as specified in HTML5. It requires making available different resolution files of the same image to the browser and let it decide which image is best, using the html attribute `srcset` and optionally `sizes`, for instance:
+To overcome this problem, we can use responsive images, as specified in HTML5. It 
+requires making available different resolution files of the same image to the browser 
+and let it decide which image is best, using the html attribute `srcset` and optionally 
+`sizes`, for instance:
 
 ```html
 <div responsive-background-image>  
@@ -2645,7 +2897,9 @@ To overcome this problem, we can use responsive images, as specified in HTML5. I
 />
 ```
 
-The browsers which does not support HTML5\'s `srcset` (i.e. IE11) will ignore it and uses `src` instead. If we really need to support IE11 and we want to provide this feature for performance reasons, we can use a JavaScript `polyfill`.
+The browsers which does not support HTML5\'s `srcset` (i.e. IE11) will ignore it and 
+uses `src` instead. If we really need to support IE11 and we want to provide this 
+feature for performance reasons, we can use a JavaScript `polyfill`.
 
 **HTML5 picture Element:**
 
@@ -2682,13 +2936,23 @@ The browsers which does not support HTML5\'s `srcset` (i.e. IE11) will ignore it
 
 ## Q. Is there any reason you\'d want to use translate() instead of absolute positioning, or vice-versa? 
 
-`translate()` is a value of CSS `transform`. Changing `transform` or `opacity` does not trigger browser reflow or repaint but does trigger compositions; whereas changing the absolute positioning triggers `reflow`. `transform` causes the browser to create a GPU layer for the element but changing absolute positioning properties uses the CPU. Hence `translate()` is more efficient and will result in shorter paint times for smoother animations.
+`translate()` is a value of CSS `transform`. Changing `transform` or `opacity` does 
+not trigger browser reflow or repaint but does trigger compositions; whereas changing 
+the absolute positioning triggers `reflow`. `transform` causes the browser to create 
+a GPU layer for the element but changing absolute positioning properties uses the CPU. 
+Hence `translate()` is more efficient and will result in shorter paint times for 
+smoother animations.
 
-When using `translate()`, the element still occupies its original space (sort of like `position: relative`), unlike in changing the absolute positioning.
+When using `translate()`, the element still occupies its original space (sort of 
+like `position: relative`), unlike in changing the absolute positioning.
 
 **Example:**
 
-If we combine `position:relative` with one of the offset properties `top`, `bottom`, `left` or `right` the element will be moved from its original place in the layout whilst preserving the space in the document it once occupied. The element will be moved on to a new layer and its “layer order” or its stacking order can then be controlled with the `z-index` property.
+If we combine `position:relative` with one of the offset properties `top`, `bottom`, 
+`left` or `right` the element will be moved from its original place in the layout 
+whilst preserving the space in the document it once occupied. The element will be 
+moved on to a new layer and its “layer order” or its stacking order can then be 
+controlled with the `z-index` property.
 
 ```css
 .thing {
@@ -2698,9 +2962,12 @@ If we combine `position:relative` with one of the offset properties `top`, `bott
 }
 ```
 
-In the above example the element will be moved 100px away from the top and 50px away from the left of its original position.
+In the above example the element will be moved 100px away from the top and 50px away 
+from the left of its original position.
 
-When using `transform:translate(x,y)` we get a very similar visual result to using relative position. The same result as above could be achieved with the following snippet:
+When using `transform:translate(x,y)` we get a very similar visual result to using 
+relative position. The same result as above could be achieved with the following 
+snippet:
 
 ```css
 .thing {
@@ -2708,7 +2975,9 @@ When using `transform:translate(x,y)` we get a very similar visual result to usi
 }
 ```
 
-In this case, we are translating the coordinates of the element by `50px` along the x-axis and `100px` along the y-axis. The end result is visually the same as the previous `position` example.
+In this case, we are translating the coordinates of the element by `50px` along the 
+x-axis and `100px` along the y-axis. The end result is visually the same as the 
+previous `position` example.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -2732,7 +3001,9 @@ In this case, we are translating the coordinates of the element by `50px` along 
 <p>This is normal text - <b>and this is bold text</b>.</p>
 ```
 
-**`<abbr>`**: The HTML Abbreviation element (`<abbr>`) represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation.
+**`<abbr>`**: The HTML Abbreviation element (`<abbr>`) represents an abbreviation 
+or acronym; the optional title attribute can provide an expansion or description 
+for the abbreviation.
 
 ```html
 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
@@ -2755,7 +3026,8 @@ The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 <p>I looked at it and thought <i>This can't be real!</i></p>
 ```
 
-**`<link>`**: The HTML `<link>` tag is used for defining a link to an external resource. It is placed in in the `<head>` section of the HTML document.
+**`<link>`**: The HTML `<link>` tag is used for defining a link to an external 
+resource. It is placed in in the `<head>` section of the HTML document.
 
 ```html
 <head>
@@ -2763,7 +3035,9 @@ The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 </head>
 ```
 
-**`<strong>`**: The `<strong>` element is used to identify text that is of greater importance than the surrounding text. By default, all browsers render `<strong>` text in a bold typeface.
+**`<strong>`**: The `<strong>` element is used to identify text that is of greater 
+importance than the surrounding text. By default, all browsers render `<strong>` 
+text in a bold typeface.
 
 ```html
 <strong>Strong text</strong>
@@ -2784,7 +3058,9 @@ The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 
 ## Q. What is At-Rule?
 
-At-rules are `CSS statements` that instructs CSS how to behave. They begin with an at sign, `@` followed by an identifier and includes everything up to the next semicolon, `;` or the next CSS block, whichever comes first.
+At-rules are `CSS statements` that instructs CSS how to behave. They begin with an 
+at sign, `@` followed by an identifier and includes everything up to the next 
+semicolon, `;` or the next CSS block, whichever comes first.
 
 ```css
 /* General structure */
@@ -2811,7 +3087,8 @@ At-rules are `CSS statements` that instructs CSS how to behave. They begin with 
 
 ## Q. How can the gap under the image be removed?
 
-As images being inline elements are treated same as texts, so there is a gap left, which can be removed by:
+As images being inline elements are treated same as texts, so there is a gap left, 
+which can be removed by:
 
 ```html
 <figure>
@@ -2825,21 +3102,32 @@ As images being inline elements are treated same as texts, so there is a gap lef
 
 ## Q. What is progressive rendering?
 
-Progressive rendering is the name given to techniques used to improve the performance of a webpage (in particular, improve perceived load time) to render content for display as quickly as possible.
+Progressive rendering is the name given to techniques used to improve the performance 
+of a webpage (in particular, improve perceived load time) to render content for 
+display as quickly as possible.
 
 **Examples:**
 
-* **Lazy loading of images** - Images on the page are not loaded all at once. JavaScript will be used to load an image when the user scrolls into the part of the page that displays the image.
-* **Prioritizing visible content (or above-the-fold rendering)** - Include only the minimum CSS/content/scripts necessary for the amount of page that would be rendered in the users browser first to display as quickly as possible, you can then use deferred scripts or listen for the DOMContentLoaded/load event to load in other resources and content.
-* **Async HTML fragments** - Flushing parts of the HTML to the browser as the page is constructed on the back end.
+* **Lazy loading of images** - Images on the page are not loaded all at once. JavaScript 
+* will be used to load an image when the user scrolls into the part of the page that 
+* displays the image.
+* **Prioritizing visible content (or above-the-fold rendering)** - Include only the 
+* minimum CSS/content/scripts necessary for the amount of page that would be rendered 
+* in the users browser first to display as quickly as possible, you can then use deferred 
+* scripts or listen for the DOMContentLoaded/load event to load in other resources and content.
+* **Async HTML fragments** - Flushing parts of the HTML to the browser as the page is 
+* constructed on the back end.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. What is mobile-first? Can you explain the difference between coding a website to be responsive versus using a mobile-first strategy?
+## Q. What is mobile-first? Can you explain the difference between coding a website to be 
+## responsive versus using a mobile-first strategy?
 
-Making a website responsive means the some elements will respond by adapting its size or other functionality according to the device\'s screen size, typically the viewport width, through CSS media queries, for example, making the font size smaller on smaller devices.
+Making a website responsive means the some elements will respond by adapting its size or 
+other functionality according to the device\'s screen size, typically the viewport width, 
+through CSS media queries, for example, making the font size smaller on smaller devices.
 
 ```css
 @media (min-width: 601px) {
@@ -2854,7 +3142,9 @@ Making a website responsive means the some elements will respond by adapting its
 }
 ```
 
-A mobile-first strategy is also responsive, however it agrees we should default and define all the styles for mobile devices, and only add specific responsive rules to other devices later. Following the previous example:
+A mobile-first strategy is also responsive, however it agrees we should default and 
+define all the styles for mobile devices, and only add specific responsive rules to 
+other devices later. Following the previous example:
 
 ```css
 .my-class {
@@ -2870,7 +3160,8 @@ A mobile-first strategy is also responsive, however it agrees we should default 
 
 A mobile-first strategy has 2 main advantages:
 
-* It\'s more performant on mobile devices, since all the rules applied for them don\'t have to be validated against any media queries.
+* It\'s more performant on mobile devices, since all the rules applied for them don\'t 
+* have to be validated against any media queries.
 * It forces to write cleaner code in respect to responsive CSS rules.
 
 **Example:**
@@ -3007,11 +3298,11 @@ html body div div h2 p {}
 
 |Sl.No| Property                  | Description                       |
 |-----|---------------------------|-----------------------------------|
-| 01. |transition	                |A shorthand property for setting the four transition properties into a single property|
-| 02. |transition-delay	          |Specifies a delay (in seconds) for the transition effect|
-| 03. |transition-duration	      |Specifies how many seconds or milliseconds a transition effect takes to complete|
-| 04. |transition-property	      |Specifies the name of the CSS property the transition effect is for|
-| 05. |transition-timing-function	|Specifies the speed curve of the transition effect|
+| 01. |transition                    |A shorthand property for setting the four transition properties into a single property|
+| 02. |transition-delay              |Specifies a delay (in seconds) for the transition effect|
+| 03. |transition-duration          |Specifies how many seconds or milliseconds a transition effect takes to complete|
+| 04. |transition-property          |Specifies the name of the CSS property the transition effect is for|
+| 05. |transition-timing-function    |Specifies the speed curve of the transition effect|
 
 **Example: 01**
 
@@ -3047,20 +3338,20 @@ img {
 
 |Sl.No|Filter        | Description                       |
 |-----|--------------|-----------------------------------|
-| 01. |none	         |Default value. Specifies no effects|
-| 02. |blur(px)	     |Applies a blur effect to the image. A larger value will create more blur.|
+| 01. |none             |Default value. Specifies no effects|
+| 02. |blur(px)         |Applies a blur effect to the image. A larger value will create more blur.|
 | 03. |brightness(%) |Adjusts the brightness of the image.|
-| 04. |contrast(%)	 |Adjusts the contrast of the image.	|
+| 04. |contrast(%)     |Adjusts the contrast of the image.    |
 | 05. |drop-shadow(h-shadow v-shadow blur spread color)|Applies a drop shadow effect to the image.|
-| 06. |grayscale(%)	 |Converts the image to grayscale.|
-| 07. |hue-rotate(deg)|	Applies a hue rotation on the image. The value defines the number of degrees around the color circle| the image samples will be adjusted. 0deg is default, and represents the original image.|
-| 08. |invert(%)	   |Inverts the samples in the image.|
-| 09. |opacity(%)	   |Sets the opacity level for the image. The opacity-level describes the transparency-level|
-| 10. |saturate(%)	 |Saturates the image.|
-| 11. |sepia(%)	     |Converts the image to sepia.|
-| 12. |url()	       |The url() function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element. for example `filter: url(svg-url#element-id)`	|
-| 13. |initial	     |Sets this property to its default value.|
-| 14. |inherit	     |Inherits this property from its parent element.|
+| 06. |grayscale(%)     |Converts the image to grayscale.|
+| 07. |hue-rotate(deg)|    Applies a hue rotation on the image. The value defines the number of degrees around the color circle| the image samples will be adjusted. 0deg is default, and represents the original image.|
+| 08. |invert(%)       |Inverts the samples in the image.|
+| 09. |opacity(%)       |Sets the opacity level for the image. The opacity-level describes the transparency-level|
+| 10. |saturate(%)     |Saturates the image.|
+| 11. |sepia(%)         |Converts the image to sepia.|
+| 12. |url()           |The url() function takes the location of an XML file that specifies an SVG filter, and may include an anchor to a specific filter element. for example `filter: url(svg-url#element-id)`    |
+| 13. |initial         |Sets this property to its default value.|
+| 14. |inherit         |Inherits this property from its parent element.|
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3068,21 +3359,21 @@ img {
 
 ## Q. Enlist the various fonts properties?
 
-|Property	             |Description                |
+|Property                 |Description                |
 |----------------------|---------------------------|
-|font-style	           | Specifies the font style. |
-|font-variant	         | Specifies the font variant. |
-|font-weight	         | Specifies the font weight. |
+|font-style               | Specifies the font style. |
+|font-variant             | Specifies the font variant. |
+|font-weight             | Specifies the font weight. |
 |font-size/line-height | Specifies the font size and the line-height. |
-|font-family	         | Specifies the font family. Default value depends on the browser|
-|caption	             | Uses the font that are used by captioned controls (like buttons, drop-downs, etc.)|
-|icon	                 | Uses the font that are used by icon labels|
-|menu	                 | Uses the fonts that are used by dropdown menus|
-|message-box	         | Uses the fonts that are used by dialog boxes|
-|small-caption	       | A smaller version of the caption font|
-|status-bar	           | Uses the fonts that are used by the status bar|
-|initial	             | Sets this property to its default value.|
-|inherit	             | Inherits this property from its parent element.|
+|font-family             | Specifies the font family. Default value depends on the browser|
+|caption                 | Uses the font that are used by captioned controls (like buttons, drop-downs, etc.)|
+|icon                     | Uses the font that are used by icon labels|
+|menu                     | Uses the fonts that are used by dropdown menus|
+|message-box             | Uses the fonts that are used by dialog boxes|
+|small-caption           | A smaller version of the caption font|
+|status-bar               | Uses the fonts that are used by the status bar|
+|initial                 | Sets this property to its default value.|
+|inherit                 | Inherits this property from its parent element.|
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3093,16 +3384,16 @@ img {
 
 |  Property             | Description                               |
 |-----------------------|-------------------------------------------|
-|background-color	      |Specifies the background color to be used	|
-|background-image	      |Specifies ONE or MORE background images to be used	|
-|background-position	  |Specifies the position of the background images	|
-|background-size	      |Specifies the size of the background images	|
-|background-repeat	    |Specifies how to repeat the background images	|
-|background-origin	    |Specifies the positioning area of the background images|
-|background-clip	      |Specifies the painting area of the background images|
-|background-attachment	|Specifies whether the background images are fixed or scrolls with the rest of the page|
-|initial	              |Sets this property to its default value.|
-|inherit	              |Inherits this property from its parent element|
+|background-color          |Specifies the background color to be used    |
+|background-image          |Specifies ONE or MORE background images to be used    |
+|background-position      |Specifies the position of the background images    |
+|background-size          |Specifies the size of the background images    |
+|background-repeat        |Specifies how to repeat the background images    |
+|background-origin        |Specifies the positioning area of the background images|
+|background-clip          |Specifies the painting area of the background images|
+|background-attachment    |Specifies whether the background images are fixed or scrolls with the rest of the page|
+|initial                  |Sets this property to its default value.|
+|inherit                  |Inherits this property from its parent element|
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3227,14 +3518,14 @@ p {
 
 |Keyword    | Value                 |Description                                                                           |
 |:----------|:----------------------|:-------------------------------------------------------------------------------------|
-|position 	|static 				|The default mode, block element is positioned in the flow. Top, left etc. are ignored.|
-|position 	|relative 				|The block element is positioned relative to its position in the flow.                 |
-|position 	|absolute 				|Block element is positioned relative to its container.                                |
-|position 	|fixed 					|Block element is positioned relative to the window and won’t scroll.                  |
-|top 		|Number [px, cm, in…] 	|Positions the block down from the reference point at the specified distance.          |
-|bottom 	|Number [px, cm, in…] 	|Positions the block up from the reference point at the specified distance.            |
-|left 		|Number [px, cm, in…] 	|Positions the block right from the reference point at the specified distance.         |
-|right 		|Number [px, cm, in…] 	|Positions the block left from the reference point at the specified distance.          |
+|position     |static                 |The default mode, block element is positioned in the flow. Top, left etc. are ignored.|
+|position     |relative                 |The block element is positioned relative to its position in the flow.                 |
+|position     |absolute                 |Block element is positioned relative to its container.                                |
+|position     |fixed                     |Block element is positioned relative to the window and won’t scroll.                  |
+|top         |Number [px, cm, in…]     |Positions the block down from the reference point at the specified distance.          |
+|bottom     |Number [px, cm, in…]     |Positions the block up from the reference point at the specified distance.            |
+|left         |Number [px, cm, in…]     |Positions the block right from the reference point at the specified distance.         |
+|right         |Number [px, cm, in…]     |Positions the block left from the reference point at the specified distance.          |
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
@@ -3808,11 +4099,11 @@ CSS vendor prefixes, also sometimes known as or CSS browser prefixes, are a way 
 
 ```css
 .myClass {
-	-webkit-transition: all 1s linear;
-	-moz-transition: all 1s linear;
-	-ms-transition: all 1s linear;
-	-o-transition: all 1s linear;
-	transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
 }
 ```
 
@@ -3841,13 +4132,13 @@ background-attachment: scroll|fixed|local|initial|inherit;
 
 **Property Values**
 
-|Value	      |Description|
+|Value          |Description|
 |-------------|-------------------------------------------------------|
-|scroll	      |The background image will scroll with the page. This is default|
-|fixed	      |The background image will not scroll with the page|
-|local	      |The background image will scroll with the element\'s contents|
-|initial	    |Sets this property to its default value. Read about initial|
-|inherit	    |Inherits this property from its parent element. Read about inherit|
+|scroll          |The background image will scroll with the page. This is default|
+|fixed          |The background image will not scroll with the page|
+|local          |The background image will scroll with the element\'s contents|
+|initial        |Sets this property to its default value. Read about initial|
+|inherit        |Inherits this property from its parent element. Read about inherit|
 
 **Example:**
 
@@ -3891,14 +4182,14 @@ overflow: visible|hidden|scroll|auto|initial|inherit;
 
 **Property Values**
 
-|Value	   |Description	|
+|Value       |Description    |
 |--------- |--------------------------------|
-|visible	 |The overflow is not clipped. It renders outside the element\'s box.                |	
-|hidden	   |The overflow is clipped, and the rest of the content will be invisible	            |
-|scroll	   |The overflow is clipped, but a scroll-bar is added to see the rest of the content	|
-|auto	     |If overflow is clipped, a scroll-bar should be added to see the rest of the content|	
-|initial	 |Sets this property to its default value. 	|
-|inherit	 |Inherits this property from its parent element. |
+|visible     |The overflow is not clipped. It renders outside the element\'s box.                |    
+|hidden       |The overflow is clipped, and the rest of the content will be invisible                |
+|scroll       |The overflow is clipped, but a scroll-bar is added to see the rest of the content    |
+|auto         |If overflow is clipped, a scroll-bar should be added to see the rest of the content|    
+|initial     |Sets this property to its default value.     |
+|inherit     |Inherits this property from its parent element. |
 |overflow-x|Specifies what to do with the left/right edges of the content if it overflows the element\'s content area|
 |overflow-y|Specifies what to do with the top/bottom edges of the content if it overflows the element\'s content area|
 
@@ -3950,12 +4241,12 @@ word-wrap: normal|break-word|initial|inherit;
 
 **Property Values**
 
-|Value	      |Description                       |
+|Value          |Description                       |
 |-------------|----------------------------------|
-|normal	      |Break words only at allowed break points|
-|break-word	  |Allows unbreakable words to be broken|
-|initial	    |Sets this property to its default value. |
-|inherit	    |Inherits this property from its parent element.|
+|normal          |Break words only at allowed break points|
+|break-word      |Allows unbreakable words to be broken|
+|initial        |Sets this property to its default value. |
+|inherit        |Inherits this property from its parent element.|
 
 **Example:**
 
