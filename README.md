@@ -39,7 +39,7 @@ p {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the use of css ruleset?
@@ -59,20 +59,14 @@ div {
   <img src="assets/images/css-rule.png" alt="CSS rule" width="500px;" />
 </p>
 
-* The first is always the **selector**, it tells the browser which element or elements 
-* of the web page will be styled.
-* Next is the **declaration block**, which begins with the opening curly brace { and 
-* ends with the closing }, between the curly braces are specified formatting commands 
-* (declarations), which are used by the browser to stylize the selected selector element.
-* Each **declaration** consists of two parts: the property and its value. The declaration 
-* must always end with a semicolon (;). You can omit the ; only at the end of the last 
-* declaration before the closing curly brace.
-* A **property** is a formatting command that defines a specific style effect for an 
-* element. Each property has its own predefined set of values. After the property name, 
-* a colon is specified, which separates the property name from the valid value.
+* The first is always the **selector**, it tells the browser which element or elements of the web page will be styled.
+* Next is the **declaration block**, which begins with the opening curly brace { and ends with the closing }, between the curly braces are specified formatting commands (declarations), which are used by the browser to stylize the selected selector element.
+* Each **declaration** consists of two parts: the property and its value. The declaration must always end with a semicolon (;). You can omit the ; only at the end of the last declaration before the closing curly brace.
+* A **property** is a formatting command that defines a specific style effect for an element. 
+* Each property has its own predefined set of values. After the property name, a colon is specified, which separates the property name from the valid value.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the possible ways to apply CSS styles to a web page?
@@ -158,7 +152,7 @@ stylesheet it is. And the third, `href`, tells the browser under which URL to fi
 stylesheet.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What does the cascading portion of CSS mean?
@@ -198,7 +192,7 @@ colours and laying out pages in CSS is done using author style sheets.
 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain new features in CSS3?
@@ -339,7 +333,7 @@ url(thirdImage.png);
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the css selectors?
@@ -600,7 +594,7 @@ element. For example, it can be used to:
 **Live Demo**: [CSS Selectors](https://learning-zone.github.io/css-interview-questions/assets/files/selector.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is contextual selector?
@@ -619,7 +613,7 @@ table p { property: value; }
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between Pseudo-classes and pseudo-elements?
@@ -682,7 +676,7 @@ of the document and can be manipulated much like a regular element.
 * ::selection
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is Combinator selector?
@@ -736,7 +730,7 @@ div ~ p {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between class selectors and id selectors?
@@ -767,7 +761,7 @@ identify more than one.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between the “nth-child()” and “nth-of-type()” selectors?
@@ -814,7 +808,7 @@ This number can also be expressed as a function, or using the keywords even or o
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain CSS grid layout with example?
@@ -930,7 +924,7 @@ into columns and rows.
 **Live Demo**: [Grid Layout](https://learning-zone.github.io/css-interview-questions/assets/files/grid-layout.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is CSS flexbox?
@@ -961,7 +955,7 @@ become **flex items**.
 </p>
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Write all the properties of the flexbox?
@@ -1029,7 +1023,7 @@ become **flex items**.
 **Live Demo**: [flex-direction Property](https://learning-zone.github.io/css-interview-questions/assets/files/flexbox.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. When to use css grid and flexbox?
@@ -1132,7 +1126,7 @@ become **flex items**.
 **Live Demo**: [CSS Grid and flexbox](https://learning-zone.github.io/css-interview-questions/assets/files/grid-flexbox-layout.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is CSS BEM?
@@ -1200,7 +1194,7 @@ or Element is in a certain state or is different in structure or style.
 * simple and easy to understand.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the benefits of using CSS sprites? 
@@ -1231,7 +1225,7 @@ image. To display the icon you set height, width and background position.
 * SVGs
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is tweening in css?
@@ -1264,7 +1258,7 @@ p {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the difference between `visibility: hidden;` and `display: none;`? What 
@@ -1276,7 +1270,7 @@ p {
 * It will not affect the layout of the document nor occupy space.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of the `z-index` and how a stacking context is formed?
@@ -1328,7 +1322,7 @@ lower index.
 **Live Demo**: [Z-Index](https://learning-zone.github.io/css-interview-questions/assets/files/z-index.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Exaplain CSS position Property?
@@ -1361,7 +1355,7 @@ lower index.
 **Live Demo**: [CSS Position Property](https://learning-zone.github.io/css-interview-questions/assets/files/position-index.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the differences between relative and absolute in CSS?
@@ -1457,7 +1451,7 @@ to its parent. If no parent is present, then it uses the document body as parent
 **Live Demo**: [Absolute Position Property](https://learning-zone.github.io/css-interview-questions/assets/files/absolute-position.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. The difference between block, inline and inline-block element?
@@ -1527,7 +1521,7 @@ button {
 **Live Demo**: [Display Property](https://learning-zone.github.io/css-interview-questions/assets/files/display-properties.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are counters in CSS3?
@@ -1596,7 +1590,7 @@ h3::before {
 **Live Demo**: [CSS Counters](https://learning-zone.github.io/css-interview-questions/assets/files/counters.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How do you specify units in the CSS?
@@ -1681,7 +1675,7 @@ length units scale better between different rendering medium.
 **Live Demo**: [CSS Units](https://learning-zone.github.io/css-interview-questions/assets/files/css-units.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Which one would you prefer among px, em % or pt and why?
@@ -1704,7 +1698,7 @@ length units scale better between different rendering medium.
 * ```pt```(points) are traditionally used in print. 1pt = 1/72 inch and it is fixed-size unit.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is pseudo element and pseudo class?
@@ -1772,7 +1766,7 @@ For example, it can be used to:
 | 31.  |:visited              |a:visited                |Selects all visited links|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the CSS “box model” and the layout components that it consists of?
@@ -1829,7 +1823,7 @@ The size of the box itself is calculated like this:
 **Live Demo**: [CSS Box Model](https://learning-zone.github.io/css-interview-questions/assets/files/boxmodel.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How you would tell the browser in CSS to render your layout in different box models?
@@ -1896,7 +1890,7 @@ box-sizing: content-box|border-box|initial|inherit;
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between border-box and content-box?
@@ -1929,7 +1923,7 @@ The width and height properties (and min/max properties) includes content, paddi
 * ```px``` pixels (1 px = 1/96th of an inch)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. In CSS3, how would you select?
@@ -1950,7 +1944,7 @@ The width and height properties (and min/max properties) includes content, paddi
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the purpose of the box-sizing property?
@@ -1979,7 +1973,7 @@ padding: 5px;
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between RGBa, HEX and HSLa?
@@ -2009,7 +2003,7 @@ p {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is CSS preprocessor?
@@ -2033,7 +2027,7 @@ Pre-processors extend CSS with variables, operators, interpolations, functions, 
 * will require an HTTP request to download each CSS file.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between "resetting" and "normalizing" CSS?
@@ -2073,7 +2067,7 @@ browsers. It also corrects bugs for common browser dependencies.
  ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain CSS Block Formatting Context?
@@ -2156,7 +2150,7 @@ block-level boxes in a BFC collapse.
 **Live Demo**: [CSS Block Formatting](https://learning-zone.github.io/css-interview-questions/assets/files/block-formatting-context.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the float property and what float do?
@@ -2230,7 +2224,7 @@ div {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Describe clear Property in css?
@@ -2254,7 +2248,7 @@ div {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the purpose of clearing floats in CSS?
@@ -2315,17 +2309,17 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
   </style>
 </head>
 <body>
-    <h2>Without clear</h2>
-    <div class="div1">div1</div>
-    <div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. 
-      However, since div1 is floated to the left, this happens: the text in div2 is floated 
-      around div1, and div2 surrounds the whole thing.
-    </div><br/>
+  <h2>Without clear</h2>
+  <div class="div1">div1</div>
+  <div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. 
+    However, since div1 is floated to the left, this happens: the text in div2 is floated 
+    around div1, and div2 surrounds the whole thing.
+  </div><br/>
 
-    <h2>Using clear</h2>
-    <div class="div3">div3</div>
-    <div class="div4">div4 - Using clear moves div4 down below the floated div3. The value 
-      "left" clears elements floated to the left. You can also clear "right" and "both".</div>
+  <h2>Using clear</h2>
+  <div class="div3">div3</div>
+  <div class="div4">div4 - Using clear moves div4 down below the floated div3. The value 
+    "left" clears elements floated to the left. You can also clear "right" and "both".</div>
 </body>
 </html>
 ```
@@ -2333,7 +2327,7 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 **Live Demo**: [CSS clear Property](https://learning-zone.github.io/css-interview-questions/assets/files/clear-float.html) 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is a clearfix in CSS?
@@ -2397,7 +2391,7 @@ just as if its floated children had been positioned absolutely.
 **Live Demo**: [CSS Clearfix](https://learning-zone.github.io/css-interview-questions/assets/files/clearfix.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Does `overflow: hidden` create a new block formatting context?
@@ -2434,7 +2428,7 @@ default behavior).
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are your favorite image replacement techniques and which do you use when?
@@ -2611,7 +2605,7 @@ h1.technique-nine {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are media queries? How could you apply css rules specific to a media?
@@ -2714,7 +2708,7 @@ CSS properties only if a certain condition is true.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the use of `@media only screen`?
@@ -2742,7 +2736,7 @@ element. For a particular `<span>`, as soon as it finds a `<p>`, it knows that
 the `<span>` matches and can stop its matching.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How can you load css resources conditionally?
@@ -2769,7 +2763,7 @@ if (window.matchMedia('screen and (min-width: 600px)')) {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What does  `* { box-sizing: border-box; }` do? What are its advantages?
@@ -2788,7 +2782,7 @@ if (window.matchMedia('screen and (min-width: 600px)')) {
 * how designers actually imagine content in grids.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. List display property in CSS?
@@ -2833,7 +2827,7 @@ p.ex4 {display: inline-block;}
 | 23. |inherit              |Inherits this property from its parent element. Read about inherit|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How is responsive design different from adaptive design? 
@@ -2864,7 +2858,7 @@ mobile-friendly. This allows you to take control of the design and develop for
 specific, multiple viewports. 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is retina graphics? What kind of techniques do you use to handle images 
@@ -2931,7 +2925,7 @@ feature for performance reasons, we can use a JavaScript `polyfill`.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Is there any reason you\'d want to use translate() instead of absolute positioning, or vice-versa? 
@@ -2980,7 +2974,7 @@ x-axis and `100px` along the y-axis. The end result is visually the same as the
 previous `position` example.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. The translate() function can move the position of an element on the z-axis?
@@ -3053,7 +3047,7 @@ text in a bold typeface.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is At-Rule?
@@ -3082,7 +3076,7 @@ semicolon, `;` or the next CSS block, whichever comes first.
 | 08. |@keyframes |Describes the aspect of intermediate steps in a CSS animation sequence.|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How can the gap under the image be removed?
@@ -3097,7 +3091,7 @@ which can be removed by:
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is progressive rendering?
@@ -3108,18 +3102,12 @@ display as quickly as possible.
 
 **Examples:**
 
-* **Lazy loading of images** - Images on the page are not loaded all at once. JavaScript 
-* will be used to load an image when the user scrolls into the part of the page that 
-* displays the image.
-* **Prioritizing visible content (or above-the-fold rendering)** - Include only the 
-* minimum CSS/content/scripts necessary for the amount of page that would be rendered 
-* in the users browser first to display as quickly as possible, you can then use deferred 
-* scripts or listen for the DOMContentLoaded/load event to load in other resources and content.
-* **Async HTML fragments** - Flushing parts of the HTML to the browser as the page is 
-* constructed on the back end.
+* **Lazy loading of images** - Images on the page are not loaded all at once. JavaScript will be used to load an image when the user scrolls into the part of the page that displays the image.
+* **Prioritizing visible content (or above-the-fold rendering)** - Include only the minimum CSS/content/scripts necessary for the amount of page that would be rendered in the users browser first to display as quickly as possible, you can then use deferred scripts or listen for the DOMContentLoaded/load event to load in other resources and content.
+* **Async HTML fragments** - Flushing parts of the HTML to the browser as the page is constructed on the back end.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is mobile-first? Can you explain the difference between coding a website to be 
@@ -3160,8 +3148,7 @@ other devices later. Following the previous example:
 
 A mobile-first strategy has 2 main advantages:
 
-* It\'s more performant on mobile devices, since all the rules applied for them don\'t 
-* have to be validated against any media queries.
+* It\'s more performant on mobile devices, since all the rules applied for them don\'t have to be validated against any media queries.
 * It forces to write cleaner code in respect to responsive CSS rules.
 
 **Example:**
@@ -3170,24 +3157,24 @@ A mobile-first strategy has 2 main advantages:
 <!DOCTYPE html>
 <html>
   <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Media Query</title>
-  <style>
-    body {
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Query</title>
+    <style>
+      body {
         background-color: lightgreen;
-    }
+      }
 
-    @media only screen and (max-width: 800px) {
+      @media only screen and (max-width: 800px) {
         body {
-            background-color: rgb(233, 50, 18);
+          background-color: rgb(233, 50, 18);
         }
-    }
-  </style>
+      }
+    </style>
   </head>
 <body>
-    <h1>Resize the browser window</h1>
-    <h2>When the width of this document is 800px or less, the background-color is "green", 
-      otherwise it is "Red".</h2>
+  <h1>Resize the browser window</h1>
+  <h2>When the width of this document is 800px or less, the background-color is "green", 
+    otherwise it is "Red".</h2>
 </body>
 </html>
 ```
@@ -3195,7 +3182,7 @@ A mobile-first strategy has 2 main advantages:
 **Live Demo**: [Media Query](https://learning-zone.github.io/css-interview-questions/assets/files/media-query.html) 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Which property is used to change the face of a font?
@@ -3231,7 +3218,7 @@ The `text-indent` property is used to indent the text of a paragraph.
 The `text-align` property is used to align the text of a document.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Which property is used to underline, overline, and strikethrough text?
@@ -3251,7 +3238,7 @@ The `list-style-type` allows you to control the shape or appearance of the marke
 The keyword `initial` can be used to resets it to its default value, which is defined in the CSS specification of the given property.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is specificity?
@@ -3287,7 +3274,7 @@ html body div div h2 p {}
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What do you know about CSS Transitions?
@@ -3319,7 +3306,7 @@ div {
 **Live Demo**: [CSS Transitions](https://learning-zone.github.io/css-interview-questions/assets/files/transitions-index.html) 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the different css filters you can use?
@@ -3354,7 +3341,7 @@ img {
 | 14. |inherit         |Inherits this property from its parent element.|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Enlist the various fonts properties?
@@ -3376,7 +3363,7 @@ img {
 |inherit                 | Inherits this property from its parent element.|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Enlist the various background properties css?
@@ -3396,12 +3383,13 @@ img {
 |inherit                  |Inherits this property from its parent element|
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between `em` and `rem` units?
 
-Both em and rem units are based on the font-size CSS property. The only difference is where they inherit their values from.
+Both em and rem units are based on the font-size CSS property. The only difference is 
+where they inherit their values from.
 * `em` units inherit their value from the font-size of the parent element
 
 ```css
@@ -3460,7 +3448,7 @@ Both em and rem units are based on the font-size CSS property. The only differen
 *Note: In most browsers, the font-size of the root element is set to 16px by default.*
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What does !important mean in CSS?
@@ -3479,7 +3467,7 @@ p {
 <p id="thing">Will be RED.</p>
 ```
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Does style2.css have to be downloaded and parsed before Paragraph 1 is rendered on the page?
@@ -3497,7 +3485,7 @@ p {
 * Yes
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Does style1.css have to be downloaded and parsed before style2.css can be fetched?
@@ -3511,24 +3499,24 @@ p {
 * No
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the CSS positioning?
 
 |Keyword    | Value                 |Description                                                                           |
 |:----------|:----------------------|:-------------------------------------------------------------------------------------|
-|position     |static                 |The default mode, block element is positioned in the flow. Top, left etc. are ignored.|
-|position     |relative                 |The block element is positioned relative to its position in the flow.                 |
-|position     |absolute                 |Block element is positioned relative to its container.                                |
-|position     |fixed                     |Block element is positioned relative to the window and won’t scroll.                  |
-|top         |Number [px, cm, in…]     |Positions the block down from the reference point at the specified distance.          |
-|bottom     |Number [px, cm, in…]     |Positions the block up from the reference point at the specified distance.            |
-|left         |Number [px, cm, in…]     |Positions the block right from the reference point at the specified distance.         |
-|right         |Number [px, cm, in…]     |Positions the block left from the reference point at the specified distance.          |
+|position     |static               |The default mode, block element is positioned in the flow. Top, left etc. are ignored.|
+|position     |relative             |The block element is positioned relative to its position in the flow.                 |
+|position     |absolute             |Block element is positioned relative to its container.                                |
+|position     |fixed                |Block element is positioned relative to the window and won’t scroll.                  |
+|top          |Number [px, cm, in…] |Positions the block down from the reference point at the specified distance.          |
+|bottom       |Number [px, cm, in…] |Positions the block up from the reference point at the specified distance.            |
+|left         |Number [px, cm, in…] |Positions the block right from the reference point at the specified distance.         |
+|right        |Number [px, cm, in…] |Positions the block left from the reference point at the specified distance.          |
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between padding and margin?
@@ -3551,7 +3539,7 @@ an element and a 30px margin at the top of the next element, the margin between 
 elements will be 30px rather than 50px. This does not apply to left/right margin or padding.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are gradients in CSS?
@@ -3593,7 +3581,7 @@ We can also create repeating gradients with the `repeating-linear-gradient()`,
 }
 ```
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is CSS opacity?
@@ -3625,7 +3613,7 @@ div { background-color: lightblue; }
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How is the concept of inheritance applied in CSS?
@@ -3648,7 +3636,7 @@ span {
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How do you handle browser differences in your user base?
@@ -3674,7 +3662,7 @@ any other conditional group at-rule.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is Cascade?
@@ -3689,7 +3677,7 @@ P (color: black} /* normal weight */
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are CSS vendor prefixes?
@@ -3704,7 +3692,7 @@ prefixes for some common platforms are listed below.
 * **-o-**: Opera
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is DOM (Document Object Model) and how is it linked to CSS?
@@ -3873,7 +3861,7 @@ var parent = document.getElementById("heading").parentNode
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain the usage of "table-layout" property?
@@ -3901,58 +3889,56 @@ table-layout: auto|fixed|initial|inherit;
 <!DOCTYPE html>
 <html>
   <head>
-      <title>table-layout Property</title>
+    <title>table-layout Property</title>
     <style>
       table {
         width: 100%; 
         table-layout: fixed;       
         border-collapse: collapse;
       } 
-
       th, td {
         padding: 8px;
         border: 1px solid #dee2e6;
       }
-
       th {
         height: 40px;
         text-align: left;
       }
     </style>
   </head>
-<body>
-<h2>table-layout Property</h2>
-<table>
-    <thead>
+  <body>
+    <h2>table-layout Property</h2>
+    <table>
+      <thead>
         <tr>
-            <th>Row</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
+          <th>Row</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
         </tr>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
         <tr>
-            <td>1</td>
-            <td>Clark</td>
-            <td>Kent</td>
-            <td>clarkkent@mail.com</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>John</td>
-            <td>Carter</td>
-            <td>johncarter@mail.com</td>
+          <td>1</td>
+          <td>Clark</td>
+          <td>Kent</td>
+          <td>clarkkent@mail.com</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Peter</td>
-            <td>Parker</td>
-            <td>peterparker@mail.com</td>
+          <td>2</td>
+          <td>John</td>
+          <td>Carter</td>
+          <td>johncarter@mail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Peter</td>
+          <td>Parker</td>
+          <td>peterparker@mail.com</td>
         </tr>            
-    </tbody>
-</table>
-</body>
+      </tbody>
+    </table>
+  </tbody>
 </html>
 ```
 
@@ -3965,7 +3951,7 @@ the top of the table while the browser loads and renders rest of the table. This
 gives the impression that the page loads a lot quicker!*
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Does margin-top or margin-bottom have an effect on inline elements
@@ -4003,7 +3989,7 @@ right) because block level elements disrupt the flow of content.
 **Live Demo**: [Inline Elements](https://learning-zone.github.io/css-interview-questions/assets/files/separator.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How does Calc() work?
@@ -4032,7 +4018,7 @@ division calculations with numeric property values. Specifically, it can be used
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What do CSS Custom properties variables mean?
@@ -4093,7 +4079,7 @@ properties that contain a value that can be used in other declarations using the
 **Live Demo**: [Custom Properties Variables](https://learning-zone.github.io/css-interview-questions/assets/files/custom-properties.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?
@@ -4150,7 +4136,7 @@ allows you to work with variables directly in CSS. There is no compiling.
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are Vendor-Prefixes?
@@ -4182,7 +4168,7 @@ The major browsers use the following prefixes:
 * `-ms-` (Internet Explorer and Microsoft Edge)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the property that is used for controlling image-scroll?
@@ -4234,7 +4220,7 @@ background-attachment: scroll|fixed|local|initial|inherit;
 **Live Demo**: [CSS background-attachment](https://learning-zone.github.io/css-interview-questions/assets/files/background-attachment.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the overflow property in CSS used for?
@@ -4293,7 +4279,7 @@ overflow: visible|hidden|scroll|auto|initial|inherit;
 ```
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is word-wrapping in CSS?
@@ -4355,7 +4341,7 @@ word-wrap: normal|break-word|initial|inherit;
 **Live Demo**: [The word-wrap Property](https://learning-zone.github.io/css-interview-questions/assets/files/word-wrap.html)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is Accessibility (a11y) in a web application?
@@ -4372,7 +4358,7 @@ capabilities or output for special braille hardware geared toward individuals wi
 visual impairments.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is UI/UX?
@@ -4389,7 +4375,7 @@ So the new look of the Facebook news feed involves a change to UI, and the way y
 navigate that new page is the UX. 
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How do you serve your pages for feature-constrained browsers? What techniques do you use?
@@ -4404,7 +4390,7 @@ navigate that new page is the UX.
 * **CSS Feature queries**: using [@support](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports)
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the different ways to visually hide content (and make it available only for screen readers)?
@@ -4422,7 +4408,7 @@ These techniques are related to accessibility (a11y).
 * accessibility of web pages.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is file splitting? When is it used?
@@ -4447,7 +4433,7 @@ tooltips. This allows developers to include only the components that they need f
 project.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is DOM reflow?
@@ -4481,7 +4467,7 @@ of the document.
 * require more CPU power to do selector matching.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. How does CSS work under the hood?
@@ -4579,5 +4565,5 @@ Render tree construction follows the following order:
 * all visible content on the screen.
 
 <div align="right">
-    <b><a href="#cssBasics">↥ back to top</a></b>
+  <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
