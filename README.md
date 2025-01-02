@@ -1,4 +1,4 @@
-# CSS Basics
+<h1 id="#css-basics">CSS Basics</h1>
 
 > *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
 
@@ -39,7 +39,7 @@ p {
 ```
 
 <div align="right">
-    <b><a href="#">↥ back to top</a></b>
+    <b><a href="css-basics">↥ back to top</a></b>
 </div>
 
 ## Q. What is the use of css ruleset?
