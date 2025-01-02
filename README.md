@@ -158,7 +158,7 @@ stylesheet it is. And the third, `href`, tells the browser under which URL to fi
 stylesheet.
 
 <div align="right">
-    <b><a href="##cssBasics">↥ back to top</a></b>
+    <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What does the cascading portion of CSS mean?
@@ -198,7 +198,7 @@ colours and laying out pages in CSS is done using author style sheets.
 
 
 <div align="right">
-    <b><a href="##cssBasics">↥ back to top</a></b>
+    <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. Explain new features in CSS3?
@@ -339,7 +339,7 @@ url(thirdImage.png);
 ```
 
 <div align="right">
-    <b><a href="##cssBasics">↥ back to top</a></b>
+    <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What are the css selectors?
@@ -600,7 +600,7 @@ element. For example, it can be used to:
 **Live Demo**: [CSS Selectors](https://learning-zone.github.io/css-interview-questions/assets/files/selector.html)
 
 <div align="right">
-    <b><a href="##cssBasics">↥ back to top</a></b>
+    <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
 ## Q. What is contextual selector?
