@@ -1,4 +1,4 @@
-<h1 id="#css-basics">CSS Basics</h1>
+<h1 href="#css-basics">CSS Basics</h1>
 
 > *Click &#9733; if you like the project. Your contributions are heartily ♡ welcome.*
 
