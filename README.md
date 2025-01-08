@@ -106,13 +106,16 @@ style tags surround all of the styles for the page.
     p {
         color: red;
     }
-    
     a {
         color: blue;
     }
 </style>
 ...
 ```
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
 
 This CSS style is an effective method of styling a single page. However, using this 
 style for multiple pages is time-consuming as you need to put CSS rules to every page 
@@ -228,6 +231,11 @@ img[src*='artwork']{
 }
 ```
 
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 **2. Pseudo-classes:**
 
 CSS2 supports user interaction pseudo-classes, namely `:link`, `:visited`, `:hover`, 
@@ -281,6 +289,10 @@ div.halfalpha {
   color: #000000;
 }
 ```
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
 
 **4. Rounded Corners: border-radius:**
 
@@ -383,6 +395,10 @@ ul {
 **iii) ID Selector**: This selector matches any HTML element that has an ID attribute 
 with the same value as that of the selector.
 
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 ```css
 #container {
    width: 960px;
@@ -439,6 +455,10 @@ and the styles would still apply.
 selector that uses a descendant combinator, except it only targets immediate child 
 elements.
 
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 ```css
 #container > .box {
    float: left;
@@ -483,6 +503,10 @@ between the `<h2>` and `<p>`, and the styles would still apply.
   <p>Paragraph example.</p>
 </div>
 ```
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
 
 **viii) Adjacent Sibling Combinator**: A selector that uses the adjacent sibling 
 combinator uses the plus symbol (+), and is almost the same as the general sibling 
@@ -529,6 +553,10 @@ input[type="text"] {
 
 The attribute selector can also be declared using just the attribute itself, with no 
 value, like this:
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
 
 ```css
 input[type] {
@@ -859,7 +887,15 @@ into columns and rows.
 |grid-template-rows        |Specifies the size of the rows in a grid layout|
 |row-gap             |Specifies the gap between the grid rows|
 
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 **Example:**
+
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
 
 ```html
 <!DOCTYPE html>
@@ -870,23 +906,18 @@ into columns and rows.
     .item1 {
         grid-area: header;
     }
-
     .item2 {
         grid-area: menu;
     }
-
     .item3 {
         grid-area: main;
     }
-
     .item4 {
         grid-area: right;
     }
-
     .item5 {
         grid-area: footer;
     }
-
     .grid-container {
         display: grid;
         grid-template-areas:
@@ -909,7 +940,6 @@ into columns and rows.
 <body>
   <h1>Grid Layout</h1>
   <p>This grid layout contains six columns and three rows:</p>
-
   <div class="grid-container">
     <div class="item1">Header</div>
     <div class="item2">Menu</div>
@@ -983,39 +1013,41 @@ become **flex items**.
 |flex:           |none, [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]|
 |align-self:     |auto, flex-start, flex-end, center, baseline, stretch;|
 
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 **Example:**
 
 ```html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The flex-direction Property</title>
-    <style>
-        .flex-container {
-            display: flex;
-            flex-direction: column;
-            background-color: DodgerBlue;
-        }
-
-        .flex-container>div {
-            background-color: #f1f1f1;
-            width: 100px;
-            margin: 10px;
-            text-align: center;
-            line-height: 75px;
-            font-size: 30px;
-        }
-    </style>
+  <title>The flex-direction Property</title>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      background-color: DodgerBlue;
+    }
+    .flex-container>div {
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+    }
+  </style>
 </head>
 <body>
-    <h1>The flex-direction Property</h1>
-    <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
-
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-    </div>
+  <h1>The flex-direction Property</h1>
+  <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
 </body>
 </html>
 ```
@@ -1047,6 +1079,10 @@ become **flex items**.
   <img src="assets/images/grid.png" alt="Two-Dimensional" />
 </p>
 
+<div align="right">
+  <b><a href="#cssBasics">↥ back to top</a></b>
+</div>
+
 **Example:**
 
 ```html
@@ -1063,7 +1099,6 @@ become **flex items**.
         background-color: #2196f3;
         padding: 5px;
     }
-
     .col-item {
         background-color: rgba(255, 255, 255, 0.8);
         border: 1px solid rgba(0, 0, 0, 0.8);
@@ -1071,14 +1106,12 @@ become **flex items**.
         font-size: 30px;
         text-align: center;
     }
-
     /* Flexbox layout */
     .wrapper {
         border: 2px solid #f76707;
         border-radius: 5px;
         background-color: #fff4e6;
     }
-
     .wrapper > div {
         border: 2px solid #ffa94d;
         border-radius: 5px;
@@ -1086,13 +1119,11 @@ become **flex items**.
         padding: 1em;
         color: #d9480f;
     }
-
     .wrapper {
         display: flex;
         width: 500px;
         flex-wrap: wrap;
     }
-
     .wrapper > div {
         flex: 1 1 150px;
     }
@@ -1110,7 +1141,6 @@ become **flex items**.
         <div class="col-item">Column - 2</div>
         <div class="col-item">Column - 3</div>
     </div>
-
     <p><h1><br/>Flexbox Layout Example<hr/></h1></p>
     <div class="wrapper">
         <div>One</div>
@@ -1141,11 +1171,9 @@ or Element is in a certain state or is different in structure or style.
 /* block component */
 .block {
 }
-
 /* element */
 .block__element {
 }
-
 /* modifier */
 .block__element--modifier {
 }
@@ -1155,32 +1183,32 @@ or Element is in a certain state or is different in structure or style.
 
 ```css
 .button {
-    display: inline-block;
-    border-radius: 3px;
-    padding: 7px 12px;
-    border: 1px solid #D5D5D5;
-    background-image: linear-gradient(#EEE, #DDD);
-    font: 700 13px/18px Helvetica, arial;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;
+  border: 1px solid #D5D5D5;
+  background-image: linear-gradient(#EEE, #DDD);
+  font: 700 13px/18px Helvetica, arial;
 }
 .button--state-success {
-    color: #FFF;
-    background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
-    border-color: #4A993E;
+  color: #FFF;
+  background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+  border-color: #4A993E;
 }
 .button--state-danger {
-    color: #900;
+  color: #900;
 }
 ```
 
 ```html
 <button class="button">
-    Normal button
+  Normal button
 </button>
 <button class="button button--state-success">
-    Success button
+  Success button
 </button>
 <button class="button button--state-danger">
-    Danger button
+  Danger button
 </button>
 ```
 
@@ -1243,13 +1271,11 @@ p {
   animation-duration: 3s;
   animation-name: slidein;
 }
-
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%; 
   }
-
   to {
     margin-left: 0%;
     width: 100%;
@@ -1303,7 +1329,6 @@ lower index.
         margin: 5px 1px 2px;
         z-index: -1;
       }
-
       p {
         color: red;
         font-size: 20px;
@@ -1325,7 +1350,7 @@ lower index.
   <b><a href="#cssBasics">↥ back to top</a></b>
 </div>
 
-## Q. Exaplain CSS position Property?
+## Q. Explain CSS position Property?
 
 <p align="center">
   <img src="assets/images/css-position-all.png" alt="One-Dimensional" />
